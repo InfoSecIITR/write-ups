@@ -11,7 +11,7 @@ We guys came 2nd in India, 122nd in the world, with 1251 points
 + Coinslot - Misc 25
 + The Rock - Reversing 100
 + Regexpire - Misc 100
-+ mfw - Web 125
++ [mfw](web/mfw) - Web 125
 + Sleeping Guard - Crypto 50
 + [Tutorial](pwn/tutorial) - Pwn 200
 + Neo - Crypto 200

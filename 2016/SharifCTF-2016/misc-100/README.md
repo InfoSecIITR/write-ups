@@ -11,7 +11,7 @@ Flag = SharifCTF{md5(Camera_Model)}
 
 The executable file on running displays an image.
 
-[!image](image.png)
+![image](image.png)
 
 I figured that we had to find the camera model of the camera which captured this photo. The image must be somewhere within the executable itself, so I examined it with binwalk and sure enough:
 

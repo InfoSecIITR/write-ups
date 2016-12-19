@@ -2,13 +2,13 @@
 
 ### Description
 
-# See `playfake.py` and decrypt the ciphertext
+See **playfake.py** and decrypt the ciphertext
 
 Ciphertext = KPDPDGYJXNUSOIGOJDUSUQGFSHJUGIEAXJZUQVDKSCMQKXIR
 
-# Notice that flag is generated using "msg", not "msg2".
-# After decryption, you get "msg2".
-# You must manually add spaces and perform other required changes to get "msg".
+Notice that flag is generated using "msg", not "msg2".
+After decryption, you get "msg2".
+You must manually add spaces and perform other required changes to get "msg".
 
 ### Solution
 * It is given that the words `SharifCTF` and `contest` exits in the `msg`

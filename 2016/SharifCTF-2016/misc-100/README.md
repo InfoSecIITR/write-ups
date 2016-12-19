@@ -9,7 +9,9 @@ Flag = SharifCTF{md5(Camera_Model)}
 
 ### Solution
 
-The executable file on running displays an [image](image.png).
+The executable file on running displays an image.
+
+[!image](image.png)
 
 I figured that we had to find the camera model of the camera which captured this photo. The image must be somewhere within the executable itself, so I examined it with binwalk and sure enough:
 
@@ -26,4 +28,4 @@ Running the strings command on the image [file](./_Image_Viewer.extracted/1538) 
 
 ![model](model.png)
 
-Calculating SharifCTF{md5('DSLR4781')}, we get the flag `SharifCTF{ccb7ed56eea6576263abeca4cdb03f62}` .
+Calculating SharifCTF{md5('DSLR4781')}, we get the flag `SharifCTF{ccb7ed56eea6576263abeca4cdb03f62}` .	

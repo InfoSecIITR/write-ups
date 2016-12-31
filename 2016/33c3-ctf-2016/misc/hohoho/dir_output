@@ -1,0 +1,1476 @@
+/bin/bash			     /etc/subgid-
+/bin/cat			     /etc/subgid-
+/bin/chacl			     /etc/subuid
+/bin/chgrp			     /etc/subuid
+/bin/chmod			     /etc/subuid-
+/bin/chown			     /etc/subuid-
+/bin/cp				     /etc/sysctl.conf
+/bin/dash			     /etc/timezone
+/bin/date			     /etc/timezone
+/bin/dd				     /flag
+/bin/df				     /get_flag
+/bin/dir			     /lib/cpp
+/bin/dmesg			     /lib64/ld-linux-x86-64.so.2
+/bin/dnsdomainname		     /lib64/ld-linux-x86-64.so.2
+/bin/dnsdomainname		     /proc/buddyinfo
+/bin/domainname			     /proc/buddyinfo
+/bin/domainname			     /proc/cgroups
+/bin/echo			     /proc/cmdline
+/bin/egrep			     /proc/cmdline
+/bin/false			     /proc/consoles
+/bin/fgrep			     /proc/cpuinfo
+/bin/findmnt			     /proc/cpuinfo
+/bin/findmnt			     /proc/crypto
+/bin/fuser			     /proc/devices
+/bin/getfacl			     /proc/devices
+/bin/grep			     /proc/diskstats
+/bin/gunzip			     /proc/diskstats
+/bin/gunzip			     /proc/dma
+/bin/gzexe			     /proc/execdomains
+/bin/gzip			     /proc/execdomains
+/bin/gzip			     /proc/fb
+/bin/hostname			     /proc/filesystems
+/bin/ip				     /proc/filesystems
+/bin/ip				     /proc/interrupts
+/bin/journalctl			     /proc/interrupts
+/bin/kill			     /proc/iomem
+/bin/kill			     /proc/iomem
+/bin/ln				     /proc/ioports
+/bin/login			     /proc/ioports
+/bin/login			     /proc/kallsyms
+/bin/loginctl			     /proc/kcore
+/bin/loginctl			     /proc/key-users
+/bin/ls				     /proc/keys
+/bin/lsblk			     /proc/kmsg
+/bin/machinectl			     /proc/kpagecgroup
+/bin/machinectl			     /proc/kpagecount
+/bin/mkdir			     /proc/kpageflags
+/bin/mkdir			     /proc/loadavg
+/bin/mknod			     /proc/locks
+/bin/mktemp			     /proc/mdstat
+/bin/more			     /proc/meminfo
+/bin/mount			     /proc/meminfo
+/bin/mountpoint			     /proc/misc
+/bin/mountpoint			     /proc/misc
+/bin/mv				     /proc/modules
+/bin/nisdomainname		     /proc/mounts
+/bin/nisdomainname		     /proc/mtrr
+/bin/pidof			     /proc/pagetypeinfo
+/bin/pidof			     /proc/pagetypeinfo
+/bin/ping			     /proc/partitions
+/bin/ping			     /proc/partitions
+/bin/ping6			     /proc/sched_debug
+/bin/ping6			     /proc/schedstat
+/bin/ps				     /proc/slabinfo
+/bin/pwd			     /proc/slabinfo
+/bin/rbash			     /proc/softirqs
+/bin/readlink			     /proc/softirqs
+/bin/readlink			     /proc/stat
+/bin/rm				     /proc/swaps
+/bin/rmdir			     /proc/sysrq-trigger
+/bin/rmdir			     /proc/sysrq-trigger
+/bin/run-parts			     /proc/timer_list
+/bin/sed			     /proc/timer_list
+/bin/setfacl			     /proc/timer_stats
+/bin/sh				     /proc/timer_stats
+/bin/sh.distrib			     /proc/uptime
+/bin/sh.distrib			     /proc/uptime
+/bin/sleep			     /proc/version
+/bin/ss				     /proc/version
+/bin/stty			     /proc/version_signature
+/bin/su				     /proc/version_signature
+/bin/sync			     /proc/vmallocinfo
+/bin/systemctl			     /proc/vmallocinfo
+/bin/systemd			     /proc/vmstat
+/bin/systemd-ask-password	     /proc/zoneinfo
+/bin/systemd-escape		     /proc/zoneinfo
+/bin/systemd-inhibit		     /run/utmp
+/bin/systemd-inhibit		     /sbin/agetty
+/bin/systemd-machine-id-setup	     /sbin/badblocks
+/bin/systemd-machine-id-setup	     /sbin/blkdiscard
+/bin/systemd-notify		     /sbin/blkdiscard
+/bin/systemd-notify		     /sbin/blkid
+/bin/systemd-tmpfiles		     /sbin/blkid
+/bin/systemd-tmpfiles		     /sbin/blockdev
+/bin/systemd-tty-ask-password-agent  /sbin/bridge
+/bin/tailf			     /sbin/bridge
+/bin/tailf			     /sbin/capsh
+/bin/tar			     /sbin/cfdisk
+/bin/tempfile			     /sbin/cfdisk
+/bin/tempfile			     /sbin/chcpu
+/bin/touch			     /sbin/ctrlaltdel
+/bin/true			     /sbin/debugfs
+/bin/udevadm			     /sbin/dmsetup
+/bin/umount			     /sbin/dumpe2fs
+/bin/uname			     /sbin/e2fsck
+/bin/uncompress			     /sbin/e2image
+/bin/vdir			     /sbin/e2image
+/bin/vdir			     /sbin/e2label
+/bin/wdctl			     /sbin/e2undo
+/bin/which			     /sbin/fdisk
+/bin/which			     /sbin/fdisk
+/bin/ypdomainname		     /sbin/findfs
+/bin/ypdomainname		     /sbin/findfs
+/bin/zcat			     /sbin/fsck
+/bin/zcmp			     /sbin/fsck.cramfs
+/bin/zdiff			     /sbin/fsck.ext2
+/bin/zdiff			     /sbin/fsck.ext3
+/bin/zegrep			     /sbin/fsck.ext4
+/bin/zfgrep			     /sbin/fsck.ext4dev
+/bin/zforce			     /sbin/fsck.minix
+/bin/zgrep			     /sbin/fsck.minix
+/bin/zless			     /sbin/fsck.nfs
+/bin/zmore			     /sbin/fsfreeze
+/bin/znew			     /sbin/fstab-decode
+/dev/console			     /sbin/fstrim
+/dev/core			     /sbin/fstrim
+/dev/full			     /sbin/getcap
+/dev/fuse			     /sbin/getpcaps
+/dev/null			     /sbin/getty
+/dev/ptmx			     /sbin/halt
+/dev/random			     /sbin/hwclock
+/dev/stderr			     /sbin/init
+/dev/stdin			     /sbin/init
+/dev/stdin			     /sbin/initctl
+/dev/stdout			     /sbin/initctl
+/dev/tty			     /sbin/insserv
+/dev/urandom			     /sbin/insserv
+/dev/zero			     /sbin/installkernel
+/etc/adduser.conf		     /sbin/installkernel
+/etc/bash.bashrc		     /sbin/ip
+/etc/bindresvport.blacklist	     /sbin/ip
+/etc/bindresvport.blacklist	     /sbin/isosize
+/etc/debconf.conf		     /sbin/isosize
+/etc/debian_version		     /sbin/killall5
+/etc/debian_version		     /sbin/killall5
+/etc/deluser.conf		     /sbin/ldconfig
+/etc/environment		     /sbin/ldconfig
+/etc/environment		     /sbin/ldconfig.real
+/etc/fstab			     /sbin/ldconfig.real
+/etc/gai.conf			     /sbin/logsave
+/etc/gai.conf			     /sbin/losetup
+/etc/group			     /sbin/mke2fs
+/etc/group-			     /sbin/mkfs
+/etc/gshadow			     /sbin/mkfs.bfs
+/etc/gshadow-			     /sbin/mkfs.cramfs
+/etc/host.conf			     /sbin/mkfs.ext2
+/etc/hostname			     /sbin/mkfs.ext3
+/etc/hosts			     /sbin/mkfs.ext4
+/etc/hosts.allow		     /sbin/mkfs.ext4dev
+/etc/hosts.deny			     /sbin/mkfs.minix
+/etc/inputrc			     /sbin/mkfs.minix
+/etc/inputrc			     /sbin/mkhomedir_helper
+/etc/insserv.conf		     /sbin/mkhomedir_helper
+/etc/insserv.conf		     /sbin/mkswap
+/etc/issue			     /sbin/pam_tally
+/etc/issue			     /sbin/pam_tally2
+/etc/issue.net			     /sbin/pivot_root
+/etc/issue.net			     /sbin/pivot_root
+/etc/ld.so.cache		     /sbin/poweroff
+/etc/ld.so.conf			     /sbin/raw
+/etc/libaudit.conf		     /sbin/reboot
+/etc/libaudit.conf		     /sbin/resize2fs
+/etc/localtime			     /sbin/resize2fs
+/etc/localtime			     /sbin/rtacct
+/etc/login.defs			     /sbin/rtmon
+/etc/login.defs			     /sbin/runlevel
+/etc/machine-id			     /sbin/runuser
+/etc/machine-id			     /sbin/setcap
+/etc/mke2fs.conf		     /sbin/sfdisk
+/etc/motd			     /sbin/sfdisk
+/etc/mtab			     /sbin/shadowconfig
+/etc/networks			     /sbin/shadowconfig
+/etc/nsswitch.conf		     /sbin/shutdown
+/etc/nsswitch.conf		     /sbin/start-stop-daemon
+/etc/os-release			     /sbin/sulogin
+/etc/pam.conf			     /sbin/sulogin
+/etc/passwd			     /sbin/swaplabel
+/etc/passwd-			     /sbin/swapoff
+/etc/profile			     /sbin/swapon
+/etc/profile			     /sbin/switch_root
+/etc/protocols			     /sbin/switch_root
+/etc/rc.local			     /sbin/sysctl
+/etc/resolv.conf		     /sbin/tc
+/etc/rmt			     /sbin/telinit
+/etc/rpc			     /sbin/telinit
+/etc/securetty			     /sbin/tune2fs
+/etc/services			     /sbin/udevadm
+/etc/services			     /sbin/udevd
+/etc/shadow			     /sbin/unix_chkpwd
+/etc/shadow-			     /sbin/unix_chkpwd
+/etc/shells			     /sbin/unix_update
+/etc/staff-group-for-usr-local	     /sbin/unix_update
+/etc/subgid			     /sbin/wipefs
+/etc/subgid			     /sbin/wipefs
+
+/:
+bin   dev  flag      home  lib64  mnt  proc  run   srv	tmp  var
+boot  etc  get_flag  lib   media  opt  root  sbin  sys	usr
+
+/bin:
+bash	       gzexe	      pwd			      tailf
+cat	       gzip	      rbash			      tar
+chacl	       hostname       readlink			      tempfile
+chgrp	       ip	      rm			      touch
+chmod	       journalctl     rmdir			      true
+chown	       kill	      run-parts			      udevadm
+cp	       ln	      sed			      umount
+dash	       login	      setfacl			      uname
+date	       loginctl       sh			      uncompress
+dd	       ls	      sh.distrib		      vdir
+df	       lsblk	      sleep			      wdctl
+dir	       machinectl     ss			      which
+dmesg	       mkdir	      stty			      ypdomainname
+dnsdomainname  mknod	      su			      zcat
+domainname     mktemp	      sync			      zcmp
+echo	       more	      systemctl			      zdiff
+egrep	       mount	      systemd			      zegrep
+false	       mountpoint     systemd-ask-password	      zfgrep
+fgrep	       mv	      systemd-escape		      zforce
+findmnt        nisdomainname  systemd-inhibit		      zgrep
+fuser	       pidof	      systemd-machine-id-setup	      zless
+getfacl        ping	      systemd-notify		      zmore
+grep	       ping6	      systemd-tmpfiles		      znew
+gunzip	       ps	      systemd-tty-ask-password-agent
+
+/boot:
+
+/dev:
+console  fd    fuse    null  pts     shm     stdin   tty      zero
+core	 full  mqueue  ptmx  random  stderr  stdout  urandom
+
+/dev/fd:
+0  1  2  3  4  5
+
+/dev/mqueue:
+
+/dev/pts:
+0  1  2  3  4  5  6  7	8  9  ptmx
+
+/dev/shm:
+
+/etc:
+adduser.conf		iproute2	rc2.d
+alternatives		issue		rc3.d
+apt			issue.net	rc4.d
+bash.bashrc		kernel		rc5.d
+bash_completion.d	ld.so.cache	rc6.d
+bindresvport.blacklist	ld.so.conf	rcS.d
+binfmt.d		ld.so.conf.d	resolv.conf
+cron.daily		libaudit.conf	rmt
+dbus-1			localtime	rpc
+debconf.conf		login.defs	securetty
+debian_version		logrotate.d	security
+default			machine-id	selinux
+deluser.conf		mke2fs.conf	services
+dpkg			modprobe.d	shadow
+environment		modules-load.d	shadow-
+fstab			motd		shells
+gai.conf		mtab		skel
+group			network		staff-group-for-usr-local
+group-			networks	subgid
+gshadow			nsswitch.conf	subgid-
+gshadow-		opt		subuid
+host.conf		os-release	subuid-
+hostname		pam.conf	sysctl.conf
+hosts			pam.d		sysctl.d
+hosts.allow		passwd		systemd
+hosts.deny		passwd-		terminfo
+init			profile		timezone
+init.d			profile.d	tmpfiles.d
+inputrc			protocols	udev
+insserv			rc.local	vim
+insserv.conf		rc0.d		xdg
+insserv.conf.d		rc1.d
+
+/etc/alternatives:
+README	       editor	       ex.it.1.gz  rview       view.1.gz
+awk	       editor.1.gz     ex.ja.1.gz  rvim        view.fr.1.gz
+awk.1.gz       editor.fr.1.gz  ex.pl.1.gz  vi	       view.it.1.gz
+builtins.7.gz  editor.it.1.gz  ex.ru.1.gz  vi.1.gz     view.ja.1.gz
+c89	       editor.ja.1.gz  nawk	   vi.fr.1.gz  view.pl.1.gz
+c89.1.gz       editor.pl.1.gz  nawk.1.gz   vi.it.1.gz  view.ru.1.gz
+c99	       editor.ru.1.gz  pager	   vi.ja.1.gz  vim
+c99.1.gz       ex	       pager.1.gz  vi.pl.1.gz  vimdiff
+cc	       ex.1.gz	       rmt	   vi.ru.1.gz  w
+cpp	       ex.fr.1.gz      rmt.8.gz    view        w.1.gz
+
+/etc/alternatives:
+README	       editor	       ex.it.1.gz  rview       view.1.gz
+awk	       editor.1.gz     ex.ja.1.gz  rvim        view.fr.1.gz
+awk.1.gz       editor.fr.1.gz  ex.pl.1.gz  vi	       view.it.1.gz
+builtins.7.gz  editor.it.1.gz  ex.ru.1.gz  vi.1.gz     view.ja.1.gz
+c89	       editor.ja.1.gz  nawk	   vi.fr.1.gz  view.pl.1.gz
+c89.1.gz       editor.pl.1.gz  nawk.1.gz   vi.it.1.gz  view.ru.1.gz
+c99	       editor.ru.1.gz  pager	   vi.ja.1.gz  vim
+c99.1.gz       ex	       pager.1.gz  vi.pl.1.gz  vimdiff
+cc	       ex.1.gz	       rmt	   vi.ru.1.gz  w
+cpp	       ex.fr.1.gz      rmt.8.gz    view        w.1.gz
+
+/etc/apt:
+apt.conf.d  preferences.d  sources.list  sources.list.d  trusted.gpg.d
+
+/etc/bash_completion.d:
+debconf  insserv
+
+/etc/bash_completion.d:
+debconf  insserv
+
+/etc/binfmt.d:
+
+/etc/binfmt.d:
+
+/etc/cron.daily:
+apt  dpkg  passwd
+
+/etc/cron.daily:
+apt  dpkg  passwd
+
+/etc/dbus-1:
+system.d
+
+/etc/default:
+devpts	halt  hwclock  nss  rcS  tmpfs	useradd
+
+/etc/dpkg:
+dpkg.cfg  dpkg.cfg.d  origins
+
+/etc/init:
+startpar-bridge.conf	     udev-finish.conf  udevmonitor.conf
+udev-fallback-graphics.conf  udev.conf	       udevtrigger.conf
+
+/etc/init:
+startpar-bridge.conf	     udev-finish.conf  udevmonitor.conf
+udev-fallback-graphics.conf  udev.conf	       udevtrigger.conf
+
+/etc/init.d:
+README			hwclock.sh	       mountnfs.sh  single
+bootlogs		killprocs	       procps	    skeleton
+bootmisc.sh		motd		       rc	    udev
+checkfs.sh		mountall-bootclean.sh  rc.local     udev-finish
+checkroot-bootclean.sh	mountall.sh	       rcS	    umountfs
+checkroot.sh		mountdevsubfs.sh       reboot	    umountnfs.sh
+halt			mountkernfs.sh	       rmnologin    umountroot
+hostname.sh		mountnfs-bootclean.sh  sendsigs     urandom
+
+/etc/init.d:
+README			hwclock.sh	       mountnfs.sh  single
+bootlogs		killprocs	       procps	    skeleton
+bootmisc.sh		motd		       rc	    udev
+checkfs.sh		mountall-bootclean.sh  rc.local     udev-finish
+checkroot-bootclean.sh	mountall.sh	       rcS	    umountfs
+checkroot.sh		mountdevsubfs.sh       reboot	    umountnfs.sh
+halt			mountkernfs.sh	       rmnologin    umountroot
+hostname.sh		mountnfs-bootclean.sh  sendsigs     urandom
+
+/etc/insserv:
+overrides
+
+/etc/insserv:
+overrides
+
+/etc/insserv.conf.d:
+
+/etc/insserv.conf.d:
+
+/etc/iproute2:
+ematch_map  group  rt_dsfield  rt_protos  rt_realms  rt_scopes	rt_tables
+
+/etc/iproute2:
+ematch_map  group  rt_dsfield  rt_protos  rt_realms  rt_scopes	rt_tables
+
+/etc/kernel:
+postinst.d
+
+/etc/ld.so.conf.d:
+libc.conf  x86_64-linux-gnu.conf
+
+/etc/logrotate.d:
+apt  dpkg
+
+/etc/modprobe.d:
+fbdev-blacklist.conf
+
+/etc/modules-load.d:
+modules.conf
+
+/etc/network:
+if-up.d
+
+/etc/opt:
+
+/etc/pam.d:
+chfn		common-auth		       login	 runuser
+chpasswd	common-password		       newusers  runuser-l
+chsh		common-session		       other	 su
+common-account	common-session-noninteractive  passwd	 systemd-user
+
+/etc/profile.d:
+
+/etc/profile.d:
+
+/etc/rc0.d:
+K01hwclock.sh  K01urandom	K03umountfs    K05halt
+K01sendsigs    K02umountnfs.sh	K04umountroot  README
+
+/etc/rc1.d:
+README	S01bootlogs  S01killprocs  S01motd  S02single
+
+/etc/rc2.d:
+README	S01bootlogs  S01motd  S02rc.local  S02rmnologin
+
+/etc/rc3.d:
+README	S01bootlogs  S01motd  S02rc.local  S02rmnologin
+
+/etc/rc4.d:
+README	S01bootlogs  S01motd  S02rc.local  S02rmnologin
+
+/etc/rc5.d:
+README	S01bootlogs  S01motd  S02rc.local  S02rmnologin
+
+/etc/rc6.d:
+K01hwclock.sh  K01urandom	K03umountfs    K05reboot
+K01sendsigs    K02umountnfs.sh	K04umountroot  README
+
+/etc/rcS.d:
+README		     S05checkroot.sh		S10udev-finish
+S01hostname.sh	     S06checkfs.sh		S10urandom
+S01mountkernfs.sh    S07checkroot-bootclean.sh	S12mountnfs.sh
+S02udev		     S08mountall.sh		S13mountnfs-bootclean.sh
+S03mountdevsubfs.sh  S09mountall-bootclean.sh	S14bootmisc.sh
+S04hwclock.sh	     S10procps
+
+/etc/security:
+access.conf  limits.d	     namespace.init  sepermit.conf
+group.conf   namespace.conf  opasswd	     time.conf
+limits.conf  namespace.d     pam_env.conf
+
+/etc/security:
+access.conf  limits.d	     namespace.init  sepermit.conf
+group.conf   namespace.conf  opasswd	     time.conf
+limits.conf  namespace.d     pam_env.conf
+
+/etc/selinux:
+semanage.conf
+
+/etc/selinux:
+semanage.conf
+
+/etc/skel:
+
+/etc/sysctl.d:
+99-sysctl.conf	README.sysctl
+
+/etc/systemd:
+bootchart.conf	network        system	       user
+journald.conf	ntp-units.d    system.conf     user.conf
+logind.conf	resolved.conf  timesyncd.conf
+
+/etc/terminfo:
+README
+
+/etc/terminfo:
+README
+
+/etc/tmpfiles.d:
+
+/etc/tmpfiles.d:
+
+/etc/udev:
+hwdb.d	rules.d  udev.conf
+
+/etc/vim:
+vimrc
+
+/etc/vim:
+vimrc
+
+/etc/xdg:
+systemd
+
+/home:
+
+/lib:
+cpp  init  lsb	startpar  systemd  terminfo  udev  x86_64-linux-gnu
+
+/lib/init:
+bootclean.sh   mount-functions.sh  tmpfs.sh
+init-d-script  swap-functions.sh   vars.sh
+
+/lib/init:
+bootclean.sh   mount-functions.sh  tmpfs.sh
+init-d-script  swap-functions.sh   vars.sh
+
+/lib/lsb:
+init-functions	init-functions.d
+
+/lib/startpar:
+startpar  startpar-upstart-inject
+
+/lib/systemd:
+debian-fixup	       systemd-cryptsetup	     systemd-readahead
+network		       systemd-fsck		     systemd-remount-fs
+system		       systemd-hostnamed	     systemd-reply-password
+system-generators      systemd-initctl		     systemd-resolved
+system-preset	       systemd-journald		     systemd-rfkill
+system-shutdown        systemd-localed		     systemd-shutdown
+system-sleep	       systemd-logind		     systemd-shutdownd
+systemd		       systemd-logind-launch	     systemd-sleep
+systemd-ac-power       systemd-machined		     systemd-socket-proxyd
+systemd-activate       systemd-modules-load	     systemd-sysctl
+systemd-backlight      systemd-multi-seat-x	     systemd-timedated
+systemd-binfmt	       systemd-networkd		     systemd-timesyncd
+systemd-bootchart      systemd-networkd-wait-online  systemd-udevd
+systemd-bus-proxyd     systemd-quotacheck	     systemd-update-utmp
+systemd-cgroups-agent  systemd-random-seed	     systemd-user-sessions
+
+/lib/terminfo:
+E  a  c  d  h  l  m  p	r  s  v  w  x
+
+/lib/terminfo:
+E  a  c  d  h  l  m  p	r  s  v  w  x
+
+/lib/udev:
+accelerometer	 hotplug.functions  mtd_probe		      udev-finish
+ata_id		 hwclock-set	    net.agent		      v4l_id
+cdrom_id	 hwdb.bin	    rule_generator.functions  write_net_rules
+collect		 hwdb.d		    rules.d
+dsl-modem.agent  logger.agent	    scsi_id
+
+/lib/x86_64-linux-gnu:
+ld-2.19.so		 libgcrypt.so.20.0.3	 libpcre.so.3
+ld-linux-x86-64.so.2	 libgpg-error.so.0	 libpcre.so.3.13.1
+libBrokenLocale-2.19.so  libgpg-error.so.0.13.0  libprocps.so.3
+libBrokenLocale.so.1	 libhistory.so.6	 libprocps.so.3.0.0
+libSegFault.so		 libhistory.so.6.3	 libpthread-2.19.so
+libacl.so.1		 libkmod.so.2		 libpthread.so.0
+libacl.so.1.1.0		 libkmod.so.2.2.8	 libreadline.so.6
+libanl-2.19.so		 liblzma.so.5		 libreadline.so.6.3
+libanl.so.1		 liblzma.so.5.0.0	 libresolv-2.19.so
+libattr.so.1		 libm-2.19.so		 libresolv.so.2
+libattr.so.1.1.0	 libm.so.6		 librt-2.19.so
+libaudit.so.1		 libmemusage.so		 librt.so.1
+libaudit.so.1.0.0	 libmount.so.1		 libselinux.so.1
+libblkid.so.1		 libmount.so.1.1.0	 libsepol.so.1
+libblkid.so.1.1.0	 libncurses.so.5	 libslang.so.2
+libbz2.so.1		 libncurses.so.5.9	 libslang.so.2.3.0
+libbz2.so.1.0		 libncursesw.so.5	 libsmartcols.so.1
+libbz2.so.1.0.4		 libncursesw.so.5.9	 libsmartcols.so.1.1.0
+libc-2.19.so		 libnsl-2.19.so		 libss.so.2
+libc.so.6		 libnsl.so.1		 libss.so.2.0
+libcap.so.2		 libnss_compat-2.19.so	 libsystemd.so.0
+libcap.so.2.24		 libnss_compat.so.2	 libsystemd.so.0.3.1
+libcidn-2.19.so		 libnss_dns-2.19.so	 libthread_db-1.0.so
+libcidn.so.1		 libnss_dns.so.2	 libthread_db.so.1
+libcom_err.so.2		 libnss_files-2.19.so	 libtinfo.so.5
+libcom_err.so.2.1	 libnss_files.so.2	 libtinfo.so.5.9
+libcrypt-2.19.so	 libnss_hesiod-2.19.so	 libudev.so.1
+libcrypt.so.1		 libnss_hesiod.so.2	 libudev.so.1.5.0
+libcryptsetup.so.4	 libnss_nis-2.19.so	 libusb-0.1.so.4
+libcryptsetup.so.4.6.0	 libnss_nis.so.2	 libusb-0.1.so.4.4.4
+libdevmapper.so.1.02.1	 libnss_nisplus-2.19.so  libutil-2.19.so
+libdl-2.19.so		 libnss_nisplus.so.2	 libutil.so.1
+libdl.so.2		 libpam.so.0		 libuuid.so.1
+libe2p.so.2		 libpam.so.0.83.1	 libuuid.so.1.3.0
+libe2p.so.2.3		 libpam_misc.so.0	 libwrap.so.0
+libext2fs.so.2		 libpam_misc.so.0.82.0	 libwrap.so.0.7.6
+libext2fs.so.2.4	 libpamc.so.0		 libz.so.1
+libgcc_s.so.1		 libpamc.so.0.82.1	 libz.so.1.2.8
+libgcrypt.so.20		 libpcprofile.so	 security
+
+/lib/x86_64-linux-gnu:
+ld-2.19.so		 libgcrypt.so.20.0.3	 libpcre.so.3
+ld-linux-x86-64.so.2	 libgpg-error.so.0	 libpcre.so.3.13.1
+libBrokenLocale-2.19.so  libgpg-error.so.0.13.0  libprocps.so.3
+libBrokenLocale.so.1	 libhistory.so.6	 libprocps.so.3.0.0
+libSegFault.so		 libhistory.so.6.3	 libpthread-2.19.so
+libacl.so.1		 libkmod.so.2		 libpthread.so.0
+libacl.so.1.1.0		 libkmod.so.2.2.8	 libreadline.so.6
+libanl-2.19.so		 liblzma.so.5		 libreadline.so.6.3
+libanl.so.1		 liblzma.so.5.0.0	 libresolv-2.19.so
+libattr.so.1		 libm-2.19.so		 libresolv.so.2
+libattr.so.1.1.0	 libm.so.6		 librt-2.19.so
+libaudit.so.1		 libmemusage.so		 librt.so.1
+libaudit.so.1.0.0	 libmount.so.1		 libselinux.so.1
+libblkid.so.1		 libmount.so.1.1.0	 libsepol.so.1
+libblkid.so.1.1.0	 libncurses.so.5	 libslang.so.2
+libbz2.so.1		 libncurses.so.5.9	 libslang.so.2.3.0
+libbz2.so.1.0		 libncursesw.so.5	 libsmartcols.so.1
+libbz2.so.1.0.4		 libncursesw.so.5.9	 libsmartcols.so.1.1.0
+libc-2.19.so		 libnsl-2.19.so		 libss.so.2
+libc.so.6		 libnsl.so.1		 libss.so.2.0
+libcap.so.2		 libnss_compat-2.19.so	 libsystemd.so.0
+libcap.so.2.24		 libnss_compat.so.2	 libsystemd.so.0.3.1
+libcidn-2.19.so		 libnss_dns-2.19.so	 libthread_db-1.0.so
+libcidn.so.1		 libnss_dns.so.2	 libthread_db.so.1
+libcom_err.so.2		 libnss_files-2.19.so	 libtinfo.so.5
+libcom_err.so.2.1	 libnss_files.so.2	 libtinfo.so.5.9
+libcrypt-2.19.so	 libnss_hesiod-2.19.so	 libudev.so.1
+libcrypt.so.1		 libnss_hesiod.so.2	 libudev.so.1.5.0
+libcryptsetup.so.4	 libnss_nis-2.19.so	 libusb-0.1.so.4
+libcryptsetup.so.4.6.0	 libnss_nis.so.2	 libusb-0.1.so.4.4.4
+libdevmapper.so.1.02.1	 libnss_nisplus-2.19.so  libutil-2.19.so
+libdl-2.19.so		 libnss_nisplus.so.2	 libutil.so.1
+libdl.so.2		 libpam.so.0		 libuuid.so.1
+libe2p.so.2		 libpam.so.0.83.1	 libuuid.so.1.3.0
+libe2p.so.2.3		 libpam_misc.so.0	 libwrap.so.0
+libext2fs.so.2		 libpam_misc.so.0.82.0	 libwrap.so.0.7.6
+libext2fs.so.2.4	 libpamc.so.0		 libz.so.1
+libgcc_s.so.1		 libpamc.so.0.82.1	 libz.so.1.2.8
+libgcrypt.so.20		 libpcprofile.so	 security
+
+/lib64:
+ld-linux-x86-64.so.2
+
+/media:
+
+/mnt:
+
+/opt:
+
+/proc:
+1      32576	  devices      key-users    net		   thread-self
+11566  3727	  diskstats    keys	    pagetypeinfo   timer_list
+11815  5836	  dma	       kmsg	    partitions	   timer_stats
+12677  6227	  driver       kpagecgroup  sched_debug    tty
+14575  7	  execdomains  kpagecount   schedstat	   uptime
+14576  acpi	  fb	       kpageflags   scsi	   version
+14577  asound	  filesystems  loadavg	    self	   version_signature
+14578  buddyinfo  fs	       locks	    slabinfo	   vmallocinfo
+14642  bus	  interrupts   mdstat	    softirqs	   vmstat
+14675  cgroups	  iomem        meminfo	    stat	   zoneinfo
+22434  cmdline	  ioports      misc	    swaps
+22435  consoles   irq	       modules	    sys
+22762  cpuinfo	  kallsyms     mounts	    sysrq-trigger
+30794  crypto	  kcore        mtrr	    sysvipc
+
+/proc/1:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/11566:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/11815:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/12677:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/14575:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/14576:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/14577:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/14578:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/14675:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/22434:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/22435:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/22762:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/30794:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/32576:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/3727:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/5836:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/6227:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/7:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/acpi:
+wakeup
+
+/proc/acpi:
+wakeup
+
+/proc/asound:
+Intel  card0  cards  devices  hwdep  modules  oss  pcm	seq  timers  version
+
+/proc/bus:
+input  pci
+
+/proc/driver:
+rtc
+
+/proc/driver:
+rtc
+
+/proc/fs:
+aufs  ext4  jbd2  nfsd
+
+/proc/irq:
+0  10  12  14  2   25  27  29  30  4  6  8  default_smp_affinity
+1  11  13  15  24  26  28  3   31  5  7  9
+
+/proc/irq:
+0  10  12  14  2   25  27  29  30  4  6  8  default_smp_affinity
+1  11  13  15  24  26  28  3   31  5  7  9
+
+/proc/net:
+anycast6      igmp6		 mcfilter6  rt6_stats	  udp
+arp	      ip6_flowlabel	 netfilter  rt_acct	  udp6
+dev	      ip6_mr_cache	 netlink    rt_cache	  udplite
+dev_mcast     ip6_mr_vif	 netstat    snmp	  udplite6
+dev_snmp6     ip_mr_cache	 packet     snmp6	  unix
+fib_trie      ip_mr_vif		 protocols  sockstat	  wireless
+fib_triestat  ip_tables_matches  psched     sockstat6	  xfrm_stat
+icmp	      ip_tables_names	 ptype	    softnet_stat  xt_recent
+icmp6	      ip_tables_targets  raw	    stat
+if_inet6      ipv6_route	 raw6	    tcp
+igmp	      mcfilter		 route	    tcp6
+
+/proc/scsi:
+device_info  scsi  sg
+
+/proc/scsi:
+device_info  scsi  sg
+
+/proc/self:
+attr		 cwd	   map_files   oom_adj	      sessionid  timers
+autogroup	 environ   maps        oom_score      setgroups  timerslack_ns
+auxv		 exe	   mem	       oom_score_adj  smaps	 uid_map
+cgroup		 fd	   mountinfo   pagemap	      stack	 wchan
+clear_refs	 fdinfo    mounts      personality    stat
+cmdline		 gid_map   mountstats  projid_map     statm
+comm		 io	   net	       root	      status
+coredump_filter  limits    ns	       sched	      syscall
+cpuset		 loginuid  numa_maps   schedstat      task
+
+/proc/sys:
+abi  debug  dev  fs  kernel  net  vm
+
+/proc/sysvipc:
+msg  sem  shm
+
+/proc/sysvipc:
+msg  sem  shm
+
+/proc/thread-self:
+attr	    cpuset   io		net	       personality  smaps    wchan
+auxv	    cwd      limits	ns	       projid_map   stack
+cgroup	    environ  loginuid	numa_maps      root	    stat
+children    exe      maps	oom_adj        sched	    statm
+clear_refs  fd	     mem	oom_score      schedstat    status
+cmdline     fdinfo   mountinfo	oom_score_adj  sessionid    syscall
+comm	    gid_map  mounts	pagemap        setgroups    uid_map
+
+/proc/tty:
+driver	drivers  ldisc	ldiscs
+/bin/dir: cannot open directory /root: Permission denied
+
+/run:
+lock  utmp
+
+/run/lock:
+
+/sbin:
+agetty	    findfs	  initctl	 mkfs.minix	   start-stop-daemon
+badblocks   fsck	  insserv	 mkhomedir_helper  sulogin
+blkdiscard  fsck.cramfs   installkernel  mkswap		   swaplabel
+blkid	    fsck.ext2	  ip		 pam_tally	   swapoff
+blockdev    fsck.ext3	  isosize	 pam_tally2	   swapon
+bridge	    fsck.ext4	  killall5	 pivot_root	   switch_root
+capsh	    fsck.ext4dev  ldconfig	 poweroff	   sysctl
+cfdisk	    fsck.minix	  ldconfig.real  raw		   tc
+chcpu	    fsck.nfs	  logsave	 reboot		   telinit
+ctrlaltdel  fsfreeze	  losetup	 resize2fs	   tune2fs
+debugfs     fstab-decode  mke2fs	 rtacct		   udevadm
+dmsetup     fstrim	  mkfs		 rtmon		   udevd
+dumpe2fs    getcap	  mkfs.bfs	 runlevel	   unix_chkpwd
+e2fsck	    getpcaps	  mkfs.cramfs	 runuser	   unix_update
+e2image     getty	  mkfs.ext2	 setcap		   wipefs
+e2label     halt	  mkfs.ext3	 sfdisk
+e2undo	    hwclock	  mkfs.ext4	 shadowconfig
+fdisk	    init	  mkfs.ext4dev	 shutdown
+
+/srv:
+chal
+
+/srv/chal:
+run.sh	sandboxes  santa.sh  santa_1  santa_2  santa_3	santa_splash
+
+/sys:
+block  class  devices	fs	    kernel  power
+bus    dev    firmware	hypervisor  module
+
+/sys/block:
+loop0  loop3  loop6  ram1   ram12  ram15  ram4	ram7  sr0
+loop1  loop4  loop7  ram10  ram13  ram2   ram5	ram8  vda
+loop2  loop5  ram0   ram11  ram14  ram3   ram6	ram9
+
+/sys/bus:
+acpi	      gpio	       mdio_bus  parport      scsi    vme
+clockevents   hdaudio	       memory	 pci	      sdio    workqueue
+clocksource   i2c	       mipi-dsi  pci_express  serio   xen
+container     isa	       mmc	 platform     spi     xen-backend
+cpu	      iscsi_flashnode  nd	 pnp	      usb
+event_source  machinecheck     node	 rapidio      virtio
+
+/sys/class:
+ata_device     drm_dp_aux_dev	 iscsi_endpoint   phy		scsi_host
+ata_link       extcon		 iscsi_host	  power_supply	sound
+ata_port       firmware		 iscsi_iface	  powercap	spi_master
+backlight      gpio		 iscsi_session	  ppdev		thermal
+bdi	       graphics		 iscsi_transport  ppp		tpm
+block	       hwmon		 leds		  pwm		tty
+bsg	       i2c-adapter	 mdio_bus	  rapidio_port	vc
+devcoredump    i2c-dev		 mem		  regulator	virtio-ports
+devfreq        infiniband	 misc		  rfkill	vtconsole
+devfreq-event  infiniband_cm	 mmc_host	  rtc		watchdog
+dma	       input		 nd		  scsi_device
+dmi	       iommu		 net		  scsi_disk
+drm	       iscsi_connection  pci_bus	  scsi_generic
+
+/sys/dev:
+block  char
+
+/sys/devices:
+LNXSYSTM:00  isa  pci0000:00  pnp0	system	    virtual
+breakpoint   msr  platform    software	tracepoint
+
+/sys/devices:
+LNXSYSTM:00  isa  pci0000:00  pnp0	system	    virtual
+breakpoint   msr  platform    software	tracepoint
+
+/sys/firmware:
+acpi  dmi  memmap  qemu_fw_cfg
+
+/sys/firmware:
+acpi  dmi  memmap  qemu_fw_cfg
+
+/sys/fs:
+aufs  bpf  btrfs  cgroup  ecryptfs  ext4  fuse	pstore
+
+/sys/hypervisor:
+
+/sys/hypervisor:
+
+/sys/kernel:
+boot_params  iommu_groups	 livepatch  rcu_expedited  tracing
+config	     kexec_crash_loaded  mm	    rcu_normal	   uevent_helper
+debug	     kexec_crash_size	 notes	    security	   uevent_seqnum
+fscaps	     kexec_loaded	 profiling  slab	   vmcoreinfo
+
+/sys/module:
+8250		     ipt_MASQUERADE	     rdma_cm
+ablk_helper	     ipt_REJECT		     rfkill
+acpi		     iptable_filter	     rng_core
+acpi_cpufreq	     iptable_nat	     scsi_mod
+acpiphp		     ipv6		     scsi_transport_iscsi
+aes_x86_64	     iscsi_tcp		     serio_raw
+aesni_intel	     iw_cm		     sg
+apparmor	     joydev		     snd
+async_memcpy	     kdb		     snd_hda_codec
+async_pq	     kernel		     snd_hda_codec_generic
+async_raid6_recov    keyboard		     snd_hda_core
+async_tx	     kgdb_nmi		     snd_hda_intel
+async_xor	     kgdboc		     snd_hwdep
+ata_generic	     libata		     snd_pcm
+ata_piix	     libcrc32c		     snd_timer
+aufs		     libiscsi		     soundcore
+autofs4		     libiscsi_tcp	     spurious
+battery		     linear		     sr_mod
+block		     llc		     stp
+br_netfilter	     loop		     suspend
+brd		     lrw		     syscopyarea
+bridge		     mac_hid		     sysfillrect
+btrfs		     md_mod		     sysimgblt
+button		     module		     sysrq
+configfs	     mousedev		     tcp_cubic
+core		     multipath		     thermal
+cpuidle		     netpoll		     tpm
+crc32_pclmul	     nf_conntrack	     tpm_tis
+crct10dif_pclmul     nf_conntrack_ipv4	     tpm_tis_core
+cryptd		     nf_defrag_ipv4	     ttm
+cryptomgr	     nf_nat		     uhci_hcd
+debug_core	     nf_nat_ipv4	     uinput
+dm_mod		     nf_nat_masquerade_ipv4  usbcore
+dns_resolver	     nf_reject_ipv4	     veth
+drm		     parport		     virtio_balloon
+drm_kms_helper	     parport_pc		     virtio_blk
+dynamic_debug	     pata_acpi		     virtio_mmio
+edd		     pata_sis		     virtio_net
+efivars		     pcc_cpufreq	     virtio_pci
+ehci_hcd	     pci_hotplug	     vt
+ext4		     pcie_aspm		     workqueue
+fb		     pcie_dpc		     x_tables
+fb_sys_fops	     pciehp		     xen_acpi_processor
+firmware_class	     ppdev		     xen_blkfront
+floppy		     ppp_generic	     xen_netfront
+fscrypto	     printk		     xfrm_algo
+fuse		     processor		     xfrm_user
+ghash_clmulni_intel  psmouse		     xhci_hcd
+glue_helper	     pstore		     xor
+i2c_piix4	     qemu_fw_cfg	     xt_addrtype
+i8042		     qxl		     xt_conntrack
+ib_cm		     raid0		     xt_nat
+ib_core		     raid1		     xt_recent
+ib_iser		     raid10		     xt_tcpudp
+ima		     raid456		     xz_dec
+input_leds	     raid6_pq		     zswap
+intel_idle	     rcupdate
+ip_tables	     rcutree
+
+/sys/power:
+disk	    pm_freeze_timeout  pm_trace		   reserved_size  wake_lock
+image_size  pm_print_times     pm_trace_dev_match  resume	  wake_unlock
+pm_async    pm_test	       pm_wakeup_irq	   state	  wakeup_count
+
+/tmp:
+
+/usr:
+bin  games  include  lib  local  sbin  share  src
+
+/usr/bin:
+[			 id		   sha1sum
+addpart			 infocmp	   sha224sum
+addr2line		 infotocap	   sha256sum
+apt			 install	   sha384sum
+apt-cache		 ionice		   sha512sum
+apt-cdrom		 ipcmk		   shred
+apt-config		 ipcrm		   shuf
+apt-get			 ipcs		   size
+apt-key			 ischroot	   skill
+apt-mark		 join		   slabtop
+ar			 killall	   snice
+arch			 last		   socat
+as			 lastb		   sort
+awk			 lastlog	   sotruss
+base64			 ld		   split
+basename		 ld.bfd		   sprof
+bashbug			 ld.gold	   stat
+busctl			 ldd		   stdbuf
+c++filt			 line		   strings
+c89			 link		   strip
+c89-gcc			 linux32	   sum
+c99			 linux64	   systemd-analyze
+c99-gcc			 lnstat		   systemd-cat
+captoinfo		 locale		   systemd-cgls
+catchsegv		 localectl	   systemd-cgtop
+cc			 localedef	   systemd-delta
+chacl			 logger		   systemd-detect-virt
+chage			 logname	   systemd-nspawn
+chattr			 lsattr		   systemd-path
+chcon			 lscpu		   systemd-run
+chfn			 lslocks	   systemd-stdio-bridge
+chrt			 lspgpot	   tabs
+chsh			 mawk		   tac
+cksum			 mcookie	   tail
+clear			 md5sum		   taskset
+clear_console		 md5sum.textutils  tee
+cmp			 mesg		   test
+comm			 mkfifo		   tic
+cpp			 mtrace		   timedatectl
+cpp-4.9			 namei		   timeout
+csplit			 nawk		   tload
+ctstat			 ncurses5-config   toe
+cut			 ncursesw5-config  top
+debconf			 newgrp		   touch
+debconf-apt-progress	 nice		   tput
+debconf-communicate	 nl		   tr
+debconf-copydb		 nm		   truncate
+debconf-escape		 nohup		   tset
+debconf-set-selections	 nproc		   tsort
+debconf-show		 nsenter	   tty
+delpart			 nstat		   tzselect
+diff			 numfmt		   unexpand
+diff3			 objcopy	   uniq
+dircolors		 objdump	   unlink
+dirname			 od		   unshare
+dpkg			 oldfind	   update-alternatives
+dpkg-deb		 pager		   uptime
+dpkg-divert		 partx		   users
+dpkg-maintscript-helper  passwd		   utmpdump
+dpkg-query		 paste		   vi
+dpkg-split		 pathchk	   view
+dpkg-statoverride	 peekfd		   vim
+dpkg-trigger		 perl		   vim.basic
+du			 perl5.20.2	   vimdiff
+dwp			 pg		   vimtutor
+editor			 pgrep		   vmstat
+elfedit			 pinky		   w
+env			 pkill		   w.procps
+ex			 pldd		   wall
+expand			 pmap		   watch
+expiry			 pr		   wc
+expr			 printenv	   whereis
+factor			 printf		   which
+faillog			 prlimit	   who
+fallocate		 procan		   whoami
+filan			 prtstat	   x86_64
+find			 pstree		   x86_64-linux-gnu-addr2line
+flock			 pstree.x11	   x86_64-linux-gnu-ar
+fmt			 ptx		   x86_64-linux-gnu-as
+fold			 pwdx		   x86_64-linux-gnu-c++filt
+free			 ranlib		   x86_64-linux-gnu-cpp
+gcc			 readelf	   x86_64-linux-gnu-cpp-4.9
+gcc-4.9			 realpath	   x86_64-linux-gnu-dwp
+gcc-ar			 rename.ul	   x86_64-linux-gnu-elfedit
+gcc-ar-4.9		 renice		   x86_64-linux-gnu-gcc
+gcc-nm			 reset		   x86_64-linux-gnu-gcc-4.9
+gcc-nm-4.9		 resizepart	   x86_64-linux-gnu-gcc-ar
+gcc-ranlib		 rev		   x86_64-linux-gnu-gcc-ar-4.9
+gcc-ranlib-4.9		 rgrep		   x86_64-linux-gnu-gcc-nm
+gcov			 routef		   x86_64-linux-gnu-gcc-nm-4.9
+gcov-4.9		 routel		   x86_64-linux-gnu-gcc-ranlib
+gencat			 rpcgen		   x86_64-linux-gnu-gcc-ranlib-4.9
+getconf			 rtstat		   x86_64-linux-gnu-gcov
+getent			 runcon		   x86_64-linux-gnu-gcov-4.9
+getfacl			 rview		   x86_64-linux-gnu-gprof
+getopt			 rvim		   x86_64-linux-gnu-ld
+gold			 santa		   x86_64-linux-gnu-ld.bfd
+gpasswd			 savelog	   x86_64-linux-gnu-ld.gold
+gpg			 script		   x86_64-linux-gnu-nm
+gpg-zip			 scriptreplay	   x86_64-linux-gnu-objcopy
+gpgsplit		 sdiff		   x86_64-linux-gnu-objdump
+gpgv			 select-editor	   x86_64-linux-gnu-ranlib
+gprof			 sensible-browser  x86_64-linux-gnu-readelf
+groups			 sensible-editor   x86_64-linux-gnu-size
+head			 sensible-pager    x86_64-linux-gnu-strings
+helpztags		 seq		   x86_64-linux-gnu-strip
+hostid			 setarch	   xargs
+hostnamectl		 setfacl	   xxd
+htop			 setsid		   yes
+i386			 setterm	   zdump
+iconv			 sg
+
+/usr/bin:
+[			 id		   sha1sum
+addpart			 infocmp	   sha224sum
+addr2line		 infotocap	   sha256sum
+apt			 install	   sha384sum
+apt-cache		 ionice		   sha512sum
+apt-cdrom		 ipcmk		   shred
+apt-config		 ipcrm		   shuf
+apt-get			 ipcs		   size
+apt-key			 ischroot	   skill
+apt-mark		 join		   slabtop
+ar			 killall	   snice
+arch			 last		   socat
+as			 lastb		   sort
+awk			 lastlog	   sotruss
+base64			 ld		   split
+basename		 ld.bfd		   sprof
+bashbug			 ld.gold	   stat
+busctl			 ldd		   stdbuf
+c++filt			 line		   strings
+c89			 link		   strip
+c89-gcc			 linux32	   sum
+c99			 linux64	   systemd-analyze
+c99-gcc			 lnstat		   systemd-cat
+captoinfo		 locale		   systemd-cgls
+catchsegv		 localectl	   systemd-cgtop
+cc			 localedef	   systemd-delta
+chacl			 logger		   systemd-detect-virt
+chage			 logname	   systemd-nspawn
+chattr			 lsattr		   systemd-path
+chcon			 lscpu		   systemd-run
+chfn			 lslocks	   systemd-stdio-bridge
+chrt			 lspgpot	   tabs
+chsh			 mawk		   tac
+cksum			 mcookie	   tail
+clear			 md5sum		   taskset
+clear_console		 md5sum.textutils  tee
+cmp			 mesg		   test
+comm			 mkfifo		   tic
+cpp			 mtrace		   timedatectl
+cpp-4.9			 namei		   timeout
+csplit			 nawk		   tload
+ctstat			 ncurses5-config   toe
+cut			 ncursesw5-config  top
+debconf			 newgrp		   touch
+debconf-apt-progress	 nice		   tput
+debconf-communicate	 nl		   tr
+debconf-copydb		 nm		   truncate
+debconf-escape		 nohup		   tset
+debconf-set-selections	 nproc		   tsort
+debconf-show		 nsenter	   tty
+delpart			 nstat		   tzselect
+diff			 numfmt		   unexpand
+diff3			 objcopy	   uniq
+dircolors		 objdump	   unlink
+dirname			 od		   unshare
+dpkg			 oldfind	   update-alternatives
+dpkg-deb		 pager		   uptime
+dpkg-divert		 partx		   users
+dpkg-maintscript-helper  passwd		   utmpdump
+dpkg-query		 paste		   vi
+dpkg-split		 pathchk	   view
+dpkg-statoverride	 peekfd		   vim
+dpkg-trigger		 perl		   vim.basic
+du			 perl5.20.2	   vimdiff
+dwp			 pg		   vimtutor
+editor			 pgrep		   vmstat
+elfedit			 pinky		   w
+env			 pkill		   w.procps
+ex			 pldd		   wall
+expand			 pmap		   watch
+expiry			 pr		   wc
+expr			 printenv	   whereis
+factor			 printf		   which
+faillog			 prlimit	   who
+fallocate		 procan		   whoami
+filan			 prtstat	   x86_64
+find			 pstree		   x86_64-linux-gnu-addr2line
+flock			 pstree.x11	   x86_64-linux-gnu-ar
+fmt			 ptx		   x86_64-linux-gnu-as
+fold			 pwdx		   x86_64-linux-gnu-c++filt
+free			 ranlib		   x86_64-linux-gnu-cpp
+gcc			 readelf	   x86_64-linux-gnu-cpp-4.9
+gcc-4.9			 realpath	   x86_64-linux-gnu-dwp
+gcc-ar			 rename.ul	   x86_64-linux-gnu-elfedit
+gcc-ar-4.9		 renice		   x86_64-linux-gnu-gcc
+gcc-nm			 reset		   x86_64-linux-gnu-gcc-4.9
+gcc-nm-4.9		 resizepart	   x86_64-linux-gnu-gcc-ar
+gcc-ranlib		 rev		   x86_64-linux-gnu-gcc-ar-4.9
+gcc-ranlib-4.9		 rgrep		   x86_64-linux-gnu-gcc-nm
+gcov			 routef		   x86_64-linux-gnu-gcc-nm-4.9
+gcov-4.9		 routel		   x86_64-linux-gnu-gcc-ranlib
+gencat			 rpcgen		   x86_64-linux-gnu-gcc-ranlib-4.9
+getconf			 rtstat		   x86_64-linux-gnu-gcov
+getent			 runcon		   x86_64-linux-gnu-gcov-4.9
+getfacl			 rview		   x86_64-linux-gnu-gprof
+getopt			 rvim		   x86_64-linux-gnu-ld
+gold			 santa		   x86_64-linux-gnu-ld.bfd
+gpasswd			 savelog	   x86_64-linux-gnu-ld.gold
+gpg			 script		   x86_64-linux-gnu-nm
+gpg-zip			 scriptreplay	   x86_64-linux-gnu-objcopy
+gpgsplit		 sdiff		   x86_64-linux-gnu-objdump
+gpgv			 select-editor	   x86_64-linux-gnu-ranlib
+gprof			 sensible-browser  x86_64-linux-gnu-readelf
+groups			 sensible-editor   x86_64-linux-gnu-size
+head			 sensible-pager    x86_64-linux-gnu-strings
+helpztags		 seq		   x86_64-linux-gnu-strip
+hostid			 setarch	   xargs
+hostnamectl		 setfacl	   xxd
+htop			 setsid		   yes
+i386			 setterm	   zdump
+iconv			 sg
+
+/usr/games:
+
+/usr/include:
+_G_config.h  fmtmsg.h	     mntent.h	 rdma		sysexits.h
+aio.h	     fnmatch.h	     monetary.h  re_comp.h	syslog.h
+aliases.h    fstab.h	     mqueue.h	 regex.h	tar.h
+alloca.h     fts.h	     mtd	 regexp.h	termio.h
+ar.h	     ftw.h	     net	 resolv.h	termios.h
+argp.h	     gconv.h	     netash	 rpc		tgmath.h
+argz.h	     getopt.h	     netatalk	 rpcsvc		thread_db.h
+arpa	     glob.h	     netax25	 sched.h	time.h
+asm-generic  gnu-versions.h  netdb.h	 scsi		ttyent.h
+assert.h     grp.h	     neteconet	 search.h	uapi
+byteswap.h   gshadow.h	     netinet	 semaphore.h	uchar.h
+complex.h    iconv.h	     netipx	 setjmp.h	ucontext.h
+cpio.h	     ifaddrs.h	     netiucv	 sgtty.h	ulimit.h
+crypt.h      inttypes.h      netpacket	 shadow.h	unistd.h
+ctype.h      langinfo.h      netrom	 signal.h	ustat.h
+dirent.h     lastlog.h	     netrose	 sound		utime.h
+dlfcn.h      libgen.h	     nfs	 spawn.h	utmp.h
+elf.h	     libintl.h	     nl_types.h  stab.h		utmpx.h
+endian.h     libio.h	     nss.h	 stdc-predef.h	values.h
+envz.h	     limits.h	     obstack.h	 stdint.h	video
+err.h	     link.h	     paths.h	 stdio.h	wait.h
+errno.h      linux	     poll.h	 stdio_ext.h	wchar.h
+error.h      locale.h	     printf.h	 stdlib.h	wctype.h
+execinfo.h   malloc.h	     protocols	 string.h	wordexp.h
+fcntl.h      math.h	     pthread.h	 strings.h	x86_64-linux-gnu
+features.h   mcheck.h	     pty.h	 stropts.h	xen
+fenv.h	     memory.h	     pwd.h	 syscall.h	xlocale.h
+
+/usr/include:
+_G_config.h  fmtmsg.h	     mntent.h	 rdma		sysexits.h
+aio.h	     fnmatch.h	     monetary.h  re_comp.h	syslog.h
+aliases.h    fstab.h	     mqueue.h	 regex.h	tar.h
+alloca.h     fts.h	     mtd	 regexp.h	termio.h
+ar.h	     ftw.h	     net	 resolv.h	termios.h
+argp.h	     gconv.h	     netash	 rpc		tgmath.h
+argz.h	     getopt.h	     netatalk	 rpcsvc		thread_db.h
+arpa	     glob.h	     netax25	 sched.h	time.h
+asm-generic  gnu-versions.h  netdb.h	 scsi		ttyent.h
+assert.h     grp.h	     neteconet	 search.h	uapi
+byteswap.h   gshadow.h	     netinet	 semaphore.h	uchar.h
+complex.h    iconv.h	     netipx	 setjmp.h	ucontext.h
+cpio.h	     ifaddrs.h	     netiucv	 sgtty.h	ulimit.h
+crypt.h      inttypes.h      netpacket	 shadow.h	unistd.h
+ctype.h      langinfo.h      netrom	 signal.h	ustat.h
+dirent.h     lastlog.h	     netrose	 sound		utime.h
+dlfcn.h      libgen.h	     nfs	 spawn.h	utmp.h
+elf.h	     libintl.h	     nl_types.h  stab.h		utmpx.h
+endian.h     libio.h	     nss.h	 stdc-predef.h	values.h
+envz.h	     limits.h	     obstack.h	 stdint.h	video
+err.h	     link.h	     paths.h	 stdio.h	wait.h
+errno.h      linux	     poll.h	 stdio_ext.h	wchar.h
+error.h      locale.h	     printf.h	 stdlib.h	wctype.h
+execinfo.h   malloc.h	     protocols	 string.h	wordexp.h
+fcntl.h      math.h	     pthread.h	 strings.h	x86_64-linux-gnu
+features.h   mcheck.h	     pty.h	 stropts.h	xen
+fenv.h	     memory.h	     pwd.h	 syscall.h	xlocale.h
+
+/usr/lib:
+apt	   gnupg		      mime	      sysctl.d
+binfmt.d   gold-ld		      modules-load.d  systemd
+compat-ld  ldscripts		      os-release      tar
+coreutils  libbfd-2.25-system.so      perl5	      tc
+dpkg	   libopcodes-2.25-system.so  python2.7       tmpfiles.d
+gcc	   locale		      python3	      x86_64-linux-gnu
+
+/usr/lib:
+apt	   gnupg		      mime	      sysctl.d
+binfmt.d   gold-ld		      modules-load.d  systemd
+compat-ld  ldscripts		      os-release      tar
+coreutils  libbfd-2.25-system.so      perl5	      tc
+dpkg	   libopcodes-2.25-system.so  python2.7       tmpfiles.d
+gcc	   locale		      python3	      x86_64-linux-gnu
+
+/usr/local:
+bin  etc  games  include  lib  man  sbin  share  src
+
+/usr/sbin:
+add-shell	   e4defrag	    pam_getenv		 tcpdmatch
+addgroup	   fdformat	    pam_timestamp_check  try-from
+adduser		   filefrag	    policy-rc.d		 tunelp
+arpd		   groupadd	    pwck		 tzconfig
+chgpasswd	   groupdel	    pwconv		 update-alternatives
+chpasswd	   groupmod	    pwunconv		 update-passwd
+chroot		   grpck	    readprofile		 update-rc.d
+cpgr		   grpconv	    remove-shell	 useradd
+cppw		   grpunconv	    rmt			 userdel
+delgroup	   iconvconfig	    rmt-tar		 usermod
+deluser		   invoke-rc.d	    rtcwake		 vigr
+dpkg-divert	   ldattach	    safe_finger		 vipw
+dpkg-preconfigure  mklost+found     service		 zic
+dpkg-reconfigure   newusers	    tarcat
+dpkg-statoverride  nologin	    tcpd
+e2freefrag	   pam-auth-update  tcpdchk
+
+/usr/sbin:
+add-shell	   e4defrag	    pam_getenv		 tcpdmatch
+addgroup	   fdformat	    pam_timestamp_check  try-from
+adduser		   filefrag	    policy-rc.d		 tunelp
+arpd		   groupadd	    pwck		 tzconfig
+chgpasswd	   groupdel	    pwconv		 update-alternatives
+chpasswd	   groupmod	    pwunconv		 update-passwd
+chroot		   grpck	    readprofile		 update-rc.d
+cpgr		   grpconv	    remove-shell	 useradd
+cppw		   grpunconv	    rmt			 userdel
+delgroup	   iconvconfig	    rmt-tar		 usermod
+deluser		   invoke-rc.d	    rtcwake		 vigr
+dpkg-divert	   ldattach	    safe_finger		 vipw
+dpkg-preconfigure  mklost+found     service		 zic
+dpkg-reconfigure   newusers	    tarcat
+dpkg-statoverride  nologin	    tcpd
+e2freefrag	   pam-auth-update  tcpdchk
+
+/usr/share:
+adduser		 dbus-1       gcc-4.9	       keyrings  pam	      readline
+applications	 debconf      gdb	       libc-bin  pam-configs  systemd
+base-files	 debianutils  gnupg	       lintian	 perl	      sysv-rc
+base-passwd	 dict	      icons	       locale	 perl5	      tabset
+bash-completion  doc	      info	       man	 pixmaps      vim
+bug		 doc-base     initramfs-tools  menu	 pkgconfig    zoneinfo
+common-licenses  dpkg	      insserv	       misc	 polkit-1     zsh
+
+/usr/src:
+
+/var:
+backups  cache	lib  local  lock  log  mail  opt  run  spool  tmp
+
+/var/backups:
+
+/var/cache:
+apt  debconf  ldconfig
+
+/var/lib:
+apt  dpkg  initscripts	insserv  misc  pam  systemd  update-rc.d  urandom  vim
+
+/var/lib:
+apt  dpkg  initscripts	insserv  misc  pam  systemd  update-rc.d  urandom  vim
+
+/var/local:
+
+/var/lock:
+
+/var/log:
+alternatives.log  bootstrap.log  dmesg	   faillog  lastlog
+apt		  btmp		 dpkg.log  fsck     wtmp
+
+/var/mail:
+
+/var/mail:
+
+/var/opt:
+
+/var/run:
+lock  utmp
+
+/var/spool:
+mail
+
+/var/tmp:
+pci.swn  pci.swo  pci.swo.gz  pci.swp  pci.swp.gz

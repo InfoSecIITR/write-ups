@@ -8,5 +8,5 @@ We guys came 65th in the world, with 775 points
 
 + pdfmaker - Misc 75
 + [hohoho](misc/hohoho) - Misc 350
-+ pay2win - Web 200
++ [pay2win](web/pay2win-200) - Web 200
 + The 0x90s called - Pwn 150

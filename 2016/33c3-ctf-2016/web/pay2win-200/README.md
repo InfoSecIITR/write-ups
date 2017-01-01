@@ -32,10 +32,10 @@ cp3=5765679f0870f4309b1a3c83588024d7c146a4104cf9d2c81f381a6fcd665bdb28df361f896e
 ```
 
 So, three successful purhases of `cheap` gave same prefix and prefix changed in unsuccessful purchase.
-Also suffix of `c1` and `cp1` are same, so most probably they contain information about name of product and suffix contain `purchase status` 
+Also suffix of `c1` and `cp1` are same, so most probably they contain information about `product name` and suffix contain `purchase status` 
 
 Initially I tried to decode the data contents but got no luck.
-So I just tried to brute-force the prefix and got the flag using the script.
+So I just tried to brute-force the prefix using the script.
 
 ```
 import requests
@@ -58,3 +58,5 @@ for i in range(0,50):
 			break
 ```
 
+And got the flag at `http://78.46.224.78:5000/payment/callback?data=5765679f0870f4309b1a3c83588024d7650c1ed0fa0a08f661c6c60fea312a3d272d81aff52de2a52f7ef761e2bbe791`
+Flag : `33C3_3c81d6357a9099a7c091d6c7d71343075e7f8a46d55c593f0ade8f51ac8ae1a8`

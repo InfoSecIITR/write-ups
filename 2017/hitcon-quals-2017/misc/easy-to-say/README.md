@@ -36,9 +36,9 @@ We were supposed to write a x86_64 /bin/sh shellcode of less than 24 bytes with 
 
 The stack and registers were cleared out already, so we needed to load the registers with the correct values and run syscall.
 
-The first hurdle was to ensure that all bytes  be unique. This meant that we could not just directly load the address of "/bin//sh" (0x68732f2f6e69622f) into rdi as is usually the case. We would have to create it with all unique bytes. Unfortunately, most of the arithematic operations involving the r* registers begin with `\x48` so it meant we could only use one such instruction. I chose to use the shift left instruction to move "//sh" to rbx and then push it appropriately.
+The first hurdle was to ensure that all bytes  be unique. This meant that we could not just directly load the address of "/bin//sh" (0x68732f2f6e69622f) into rdi as is usually the case. We would have to create it with all unique bytes. Unfortunately, most of the operations (mov, add etc.) involving the r* registers begin with `\x48` so it meant we could only use one such instruction. I chose to first move "//sh" to ebx (no 0x48 here), and then use the shift left instruction on rbx (0x48 used) and then push it appropriately.
 
-But directly moving "//sh" was not an option (unique bytes!), so I created it by moving (0x68732f2f - 0x3b) into ebx, and then adding ax (0x3b: which was already needed for the syscall, so I was trying to saving bytes). Then I shifted it left by 32 bits and and pushed it onto the stack.
+But directly moving "//sh" was not an option (unique bytes!), so I created it by moving (0x68732f2f - 0x3b) into ebx, and then adding ax (0x3b: which was already needed for the syscall, so I was trying to saving bytes). Then I shifted rbx by 32 bits and and pushed it onto the stack.
 
 I now had to mov "/bin" to the stack too. This was the second big hurdle I faced. I initially used `mov [rsp], 0x6e69622f "/bin"`, followed by loading of address to rdi and then syscall. Unfortunately, the shellcode came out to be 25 bytes!
 

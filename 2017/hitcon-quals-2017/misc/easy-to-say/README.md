@@ -40,7 +40,9 @@ The first hurdle was to ensure that all bytes  be unique. This meant that we cou
 
 But directly moving "//sh" was not an option (unique bytes!), so I created it by moving (0x68732f2f - 0x3b) into ebx, and then adding ax (0x3b: which was already needed for the syscall, so I was trying to saving bytes). Then I shifted rbx by 32 bits and and pushed it onto the stack.
 
-I now had to mov "/bin" to the stack too. This was the second big hurdle I faced. I initially used `mov [rsp], 0x6e69622f "/bin"`, followed by loading of address to rdi and then syscall. Unfortunately, the shellcode came out to be 25 bytes!
+I now had to mov "/bin" to the stack too (I could not add to rbx, which was my initial thought process regarding this approach, because the add instruction also began with \x48 which I had already used in shift left). This was the second big hurdle I faced.
+
+I initially used `mov [rsp], 0x6e69622f "/bin"`, followed by loading of address to rdi and then syscall. Unfortunately, the shellcode came out to be 25 bytes!
 
 While trying other apporaches I discovred that `mov [rdi], 0x6e69622f "/bin"` took exactly 1 byte less than `mov [rsp], 0x6e69622f "/bin"` ! So I rearranged my earlier shellcode to  load the stack ("/bin//sh") address to rdi before moving "/bin" onto the stack using `mov [rdi]` instead of `mov [rsp]` this time. Now the shellcode was 24 bytes only :)
 

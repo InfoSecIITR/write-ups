@@ -16,7 +16,7 @@ Running the exploit repeatedly by changing the offset and checking for the most 
 
 ## [Exploit Code](lost_mind.py)
 
-```
+```python
 import gmpy2
 import sys
 import itertools

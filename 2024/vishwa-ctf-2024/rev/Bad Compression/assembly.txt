@@ -1,0 +1,729 @@
+compress.pyc (Python 3.12)
+[Code]
+    File Name: compress.py
+    Object Name: <module>
+    Qualified Name: <module>
+    Arg Count: 0
+    Pos Only Arg Count: 0
+    KW Only Arg Count: 0
+    Stack Size: 4
+    Flags: 0x00000000
+    [Names]
+        'heapq'
+        'collections'
+        'Node'
+        'ltrim'
+        'rtrim'
+        'trim'
+        'find_freq'
+        'build_pq'
+        'build_tree'
+        'get_codes'
+        'apply_changes'
+        'write_to_file'
+        'encode'
+        'main'
+        '__name__'
+    [Locals+Names]
+    [Constants]
+        0
+        None
+        [Code]
+            File Name: compress.py
+            Object Name: Node
+            Qualified Name: Node
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 1
+            Flags: 0x00000000
+            [Names]
+                '__name__'
+                '__module__'
+                '__qualname__'
+                '__init__'
+                '__lt__'
+            [Locals+Names]
+            [Constants]
+                'Node'
+                [Code]
+                    File Name: compress.py
+                    Object Name: __init__
+                    Qualified Name: Node.__init__
+                    Arg Count: 3
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 2
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'data'
+                        'weight'
+                        'left'
+                        'right'
+                    [Locals+Names]
+                        'self'
+                        'weight'
+                        'data'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       2: data
+                        4       LOAD_FAST                       0: self
+                        6       STORE_ATTR                      0: data
+                        16      LOAD_FAST                       1: weight
+                        18      LOAD_FAST                       0: self
+                        20      STORE_ATTR                      1: weight
+                        30      LOAD_CONST                      0: None
+                        32      LOAD_FAST                       0: self
+                        34      STORE_ATTR                      2: left
+                        44      LOAD_CONST                      0: None
+                        46      LOAD_FAST                       0: self
+                        48      STORE_ATTR                      3: right
+                        58      RETURN_CONST                    0: None
+                [Code]
+                    File Name: compress.py
+                    Object Name: __lt__
+                    Qualified Name: Node.__lt__
+                    Arg Count: 2
+                    Pos Only Arg Count: 0
+                    KW Only Arg Count: 0
+                    Stack Size: 2
+                    Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+                    [Names]
+                        'weight'
+                    [Locals+Names]
+                        'self'
+                        'other'
+                    [Constants]
+                        None
+                    [Disassembly]
+                        0       RESUME                          0
+                        2       LOAD_FAST                       0: self
+                        4       LOAD_ATTR                       0: weight
+                        24      LOAD_FAST                       1: other
+                        26      LOAD_ATTR                       0: weight
+                        46      COMPARE_OP                      68 (>)
+                        50      RETURN_VALUE                    
+                None
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_NAME                       0: __name__
+                4       STORE_NAME                      1: __module__
+                6       LOAD_CONST                      0: 'Node'
+                8       STORE_NAME                      2: __qualname__
+                10      LOAD_CONST                      1: <CODE> __init__
+                12      MAKE_FUNCTION                   0
+                14      STORE_NAME                      3: __init__
+                16      LOAD_CONST                      2: <CODE> __lt__
+                18      MAKE_FUNCTION                   0
+                20      STORE_NAME                      4: __lt__
+                22      RETURN_CONST                    3: None
+        'Node'
+        [Code]
+            File Name: compress.py
+            Object Name: ltrim
+            Qualified Name: ltrim
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 2
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'lstrip'
+            [Locals+Names]
+                's'
+            [Constants]
+                None
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_FAST                       0: s
+                4       LOAD_ATTR                       1: lstrip
+                24      CALL                            0
+                32      RETURN_VALUE                    
+        [Code]
+            File Name: compress.py
+            Object Name: rtrim
+            Qualified Name: rtrim
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 2
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'rstrip'
+            [Locals+Names]
+                's'
+            [Constants]
+                None
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_FAST                       0: s
+                4       LOAD_ATTR                       1: rstrip
+                24      CALL                            0
+                32      RETURN_VALUE                    
+        [Code]
+            File Name: compress.py
+            Object Name: trim
+            Qualified Name: trim
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 2
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'strip'
+            [Locals+Names]
+                's'
+            [Constants]
+                None
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_FAST                       0: s
+                4       LOAD_ATTR                       1: strip
+                24      CALL                            0
+                32      RETURN_VALUE                    
+        [Code]
+            File Name: compress.py
+            Object Name: find_freq
+            Qualified Name: find_freq
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 5
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'collections'
+                'defaultdict'
+                'int'
+            [Locals+Names]
+                'data'
+                'freq'
+                'ch'
+            [Constants]
+                None
+                1
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_GLOBAL                     1: NULL + collections
+                12      LOAD_ATTR                       2: defaultdict
+                32      LOAD_GLOBAL                     4: int
+                42      CALL                            1
+                50      STORE_FAST                      1: freq
+                52      LOAD_FAST                       0: data
+                54      GET_ITER                        
+                56      FOR_ITER                        15 (to 88)
+                60      STORE_FAST                      2: ch
+                62      LOAD_FAST                       1: freq
+                64      LOAD_FAST                       2: ch
+                66      COPY                            2
+                68      COPY                            2
+                70      BINARY_SUBSCR                   
+                74      LOAD_CONST                      1: 1
+                76      BINARY_OP                       13 (+=)
+                80      SWAP                            3
+                82      SWAP                            2
+                84      STORE_SUBSCR                    
+                88      JUMP_BACKWARD                   17 (to 56)
+                90      END_FOR                         
+                92      LOAD_FAST                       1: freq
+                94      RETURN_VALUE                    
+        [Code]
+            File Name: compress.py
+            Object Name: build_pq
+            Qualified Name: build_pq
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 9
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'items'
+                'heapq'
+                'heappush'
+                'ord'
+                'Node'
+            [Locals+Names]
+                'freq'
+                'pq'
+                'char'
+            [Constants]
+                None
+                7
+            [Disassembly]
+                0       RESUME                          0
+                2       BUILD_LIST                      0
+                4       STORE_FAST                      1: pq
+                6       LOAD_FAST                       0: freq
+                8       LOAD_ATTR                       1: items
+                28      CALL                            0
+                36      GET_ITER                        
+                38      FOR_ITER                        54 (to 148)
+                42      UNPACK_SEQUENCE                 2
+                46      STORE_FAST                      2: char
+                48      STORE_FAST                      0: freq
+                50      LOAD_GLOBAL                     3: NULL + heapq
+                60      LOAD_ATTR                       4: heappush
+                80      LOAD_FAST                       1: pq
+                82      LOAD_FAST                       0: freq
+                84      LOAD_GLOBAL                     7: NULL + ord
+                94      LOAD_FAST                       2: char
+                96      CALL                            1
+                104     LOAD_CONST                      1: 7
+                106     BINARY_OP                       6 (%)
+                110     BINARY_OP                       0 (+)
+                114     LOAD_GLOBAL                     9: NULL + Node
+                124     LOAD_FAST                       0: freq
+                126     LOAD_FAST                       2: char
+                128     CALL                            2
+                136     BUILD_TUPLE                     2
+                138     CALL                            2
+                146     POP_TOP                         
+                148     JUMP_BACKWARD                   56 (to 38)
+                150     END_FOR                         
+                152     LOAD_FAST                       1: pq
+                154     RETURN_VALUE                    
+        [Code]
+            File Name: compress.py
+            Object Name: build_tree
+            Qualified Name: build_tree
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 5
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'len'
+                'heapq'
+                'heappop'
+                'weight'
+                'Node'
+                'left'
+                'right'
+                'heappush'
+            [Locals+Names]
+                'pq'
+                '_'
+                'left'
+                'right'
+                'weight'
+                'temp'
+                'root'
+            [Constants]
+                None
+                1
+                '.'
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_GLOBAL                     1: NULL + len
+                12      LOAD_FAST                       0: pq
+                14      CALL                            1
+                22      LOAD_CONST                      1: 1
+                24      COMPARE_OP                      68 (>)
+                28      POP_JUMP_IF_FALSE               138 (to 306)
+                30      LOAD_GLOBAL                     3: NULL + heapq
+                40      LOAD_ATTR                       4: heappop
+                60      LOAD_FAST                       0: pq
+                62      CALL                            1
+                70      UNPACK_SEQUENCE                 2
+                74      STORE_FAST                      1: _
+                76      STORE_FAST                      2: left
+                78      LOAD_GLOBAL                     3: NULL + heapq
+                88      LOAD_ATTR                       4: heappop
+                108     LOAD_FAST                       0: pq
+                110     CALL                            1
+                118     UNPACK_SEQUENCE                 2
+                122     STORE_FAST                      1: _
+                124     STORE_FAST                      3: right
+                126     LOAD_FAST                       2: left
+                128     LOAD_ATTR                       6: weight
+                148     LOAD_FAST                       3: right
+                150     LOAD_ATTR                       6: weight
+                170     BINARY_OP                       0 (+)
+                174     STORE_FAST                      4: weight
+                176     LOAD_GLOBAL                     9: NULL + Node
+                186     LOAD_FAST                       4: weight
+                188     LOAD_CONST                      2: '.'
+                190     CALL                            2
+                198     STORE_FAST                      5: temp
+                200     LOAD_FAST                       2: left
+                202     LOAD_FAST                       5: temp
+                204     STORE_ATTR                      5: left
+                214     LOAD_FAST                       3: right
+                216     LOAD_FAST                       5: temp
+                218     STORE_ATTR                      6: right
+                228     LOAD_GLOBAL                     3: NULL + heapq
+                238     LOAD_ATTR                       14: heappush
+                258     LOAD_FAST                       0: pq
+                260     LOAD_FAST                       4: weight
+                262     LOAD_FAST                       5: temp
+                264     BUILD_TUPLE                     2
+                266     CALL                            2
+                274     POP_TOP                         
+                276     LOAD_GLOBAL                     1: NULL + len
+                286     LOAD_FAST                       0: pq
+                288     CALL                            1
+                296     LOAD_CONST                      1: 1
+                298     COMPARE_OP                      68 (>)
+                302     POP_JUMP_IF_FALSE               1 (to 306)
+                304     JUMP_BACKWARD                   138 (to 30)
+                306     LOAD_GLOBAL                     3: NULL + heapq
+                316     LOAD_ATTR                       4: heappop
+                336     LOAD_FAST                       0: pq
+                338     CALL                            1
+                346     UNPACK_SEQUENCE                 2
+                350     STORE_FAST                      1: _
+                352     STORE_FAST                      6: root
+                354     LOAD_FAST                       6: root
+                356     RETURN_VALUE                    
+        [Code]
+            File Name: compress.py
+            Object Name: get_codes
+            Qualified Name: get_codes
+            Arg Count: 3
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 5
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'data'
+                'join'
+                'left'
+                'append'
+                'get_codes'
+                'pop'
+                'right'
+            [Locals+Names]
+                'root'
+                'path'
+                'mp'
+            [Constants]
+                None
+                '.'
+                ''
+                '0'
+                '1'
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_FAST                       0: root
+                4       POP_JUMP_IF_NOT_NONE            1 (to 8)
+                6       RETURN_CONST                    0: None
+                8       LOAD_FAST                       0: root
+                10      LOAD_ATTR                       0: data
+                30      LOAD_CONST                      1: '.'
+                32      COMPARE_OP                      55 (!=)
+                36      POP_JUMP_IF_FALSE               30 (to 98)
+                38      LOAD_CONST                      2: ''
+                40      LOAD_ATTR                       3: join
+                60      LOAD_FAST                       1: path
+                62      CALL                            1
+                70      LOAD_FAST                       2: mp
+                72      LOAD_FAST                       0: root
+                74      LOAD_ATTR                       0: data
+                94      STORE_SUBSCR                    
+                98      LOAD_FAST                       0: root
+                100     LOAD_ATTR                       4: left
+                120     POP_JUMP_IF_FALSE               56 (to 234)
+                122     LOAD_FAST                       1: path
+                124     LOAD_ATTR                       7: append
+                144     LOAD_CONST                      3: '0'
+                146     CALL                            1
+                154     POP_TOP                         
+                156     LOAD_GLOBAL                     9: NULL + get_codes
+                166     LOAD_FAST                       0: root
+                168     LOAD_ATTR                       4: left
+                188     LOAD_FAST                       1: path
+                190     LOAD_FAST                       2: mp
+                192     CALL                            3
+                200     POP_TOP                         
+                202     LOAD_FAST                       1: path
+                204     LOAD_ATTR                       11: pop
+                224     CALL                            0
+                232     POP_TOP                         
+                234     LOAD_FAST                       0: root
+                236     LOAD_ATTR                       12: right
+                256     POP_JUMP_IF_FALSE               57 (to 372)
+                258     LOAD_FAST                       1: path
+                260     LOAD_ATTR                       7: append
+                280     LOAD_CONST                      4: '1'
+                282     CALL                            1
+                290     POP_TOP                         
+                292     LOAD_GLOBAL                     9: NULL + get_codes
+                302     LOAD_FAST                       0: root
+                304     LOAD_ATTR                       12: right
+                324     LOAD_FAST                       1: path
+                326     LOAD_FAST                       2: mp
+                328     CALL                            3
+                336     POP_TOP                         
+                338     LOAD_FAST                       1: path
+                340     LOAD_ATTR                       11: pop
+                360     CALL                            0
+                368     POP_TOP                         
+                370     RETURN_CONST                    0: None
+                372     RETURN_CONST                    0: None
+        [Code]
+            File Name: compress.py
+            Object Name: apply_changes
+            Qualified Name: apply_changes
+            Arg Count: 2
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 4
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+            [Locals+Names]
+                'mp'
+                'data'
+                'encoded_str'
+                'char'
+            [Constants]
+                None
+                ''
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_CONST                      1: ''
+                4       STORE_FAST                      2: encoded_str
+                6       LOAD_FAST                       1: data
+                8       GET_ITER                        
+                10      FOR_ITER                        10 (to 32)
+                14      STORE_FAST                      3: char
+                16      LOAD_FAST                       2: encoded_str
+                18      LOAD_FAST                       0: mp
+                20      LOAD_FAST                       3: char
+                22      BINARY_SUBSCR                   
+                26      BINARY_OP                       13 (+=)
+                30      STORE_FAST                      2: encoded_str
+                32      JUMP_BACKWARD                   12 (to 10)
+                34      END_FOR                         
+                36      LOAD_FAST                       2: encoded_str
+                38      RETURN_VALUE                    
+        [Code]
+            File Name: compress.py
+            Object Name: write_to_file
+            Qualified Name: write_to_file
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 6
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'open'
+                'write'
+            [Locals+Names]
+                'data'
+                'outfile'
+            [Constants]
+                None
+                'Encoded_git.txt'
+                'w'
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_GLOBAL                     1: NULL + open
+                12      LOAD_CONST                      1: 'Encoded_git.txt'
+                14      LOAD_CONST                      2: 'w'
+                16      CALL                            2
+                24      BEFORE_WITH                     
+                26      STORE_FAST                      1: outfile
+                28      LOAD_FAST                       1: outfile
+                30      LOAD_ATTR                       3: write
+                50      LOAD_FAST                       0: data
+                52      CALL                            1
+                60      POP_TOP                         
+                62      LOAD_CONST                      0: None
+                64      LOAD_CONST                      0: None
+                66      LOAD_CONST                      0: None
+                68      CALL                            2
+                76      POP_TOP                         
+                78      RETURN_CONST                    0: None
+                80      PUSH_EXC_INFO                   
+                82      WITH_EXCEPT_START               
+                84      POP_JUMP_IF_TRUE                1 (to 88)
+                86      RERAISE                         2
+                88      POP_TOP                         
+                90      POP_EXCEPT                      
+                92      POP_TOP                         
+                94      POP_TOP                         
+                96      RETURN_CONST                    0: None
+                98      COPY                            3
+                100     POP_EXCEPT                      
+                102     RERAISE                         1
+        [Code]
+            File Name: compress.py
+            Object Name: encode
+            Qualified Name: encode
+            Arg Count: 1
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 5
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'find_freq'
+                'build_pq'
+                'build_tree'
+                'get_codes'
+                'apply_changes'
+                'write_to_file'
+            [Locals+Names]
+                'data'
+                'freq'
+                'pq'
+                'tree_root'
+                'mp'
+                'path'
+                'encoded_str'
+            [Constants]
+                None
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_GLOBAL                     1: NULL + find_freq
+                12      LOAD_FAST                       0: data
+                14      CALL                            1
+                22      STORE_FAST                      1: freq
+                24      LOAD_GLOBAL                     3: NULL + build_pq
+                34      LOAD_FAST                       1: freq
+                36      CALL                            1
+                44      STORE_FAST                      2: pq
+                46      LOAD_GLOBAL                     5: NULL + build_tree
+                56      LOAD_FAST                       2: pq
+                58      CALL                            1
+                66      STORE_FAST                      3: tree_root
+                68      BUILD_MAP                       0
+                70      STORE_FAST                      4: mp
+                72      BUILD_LIST                      0
+                74      STORE_FAST                      5: path
+                76      LOAD_GLOBAL                     7: NULL + get_codes
+                86      LOAD_FAST                       3: tree_root
+                88      LOAD_FAST                       5: path
+                90      LOAD_FAST                       4: mp
+                92      CALL                            3
+                100     POP_TOP                         
+                102     LOAD_GLOBAL                     9: NULL + apply_changes
+                112     LOAD_FAST                       4: mp
+                114     LOAD_FAST                       0: data
+                116     CALL                            2
+                124     STORE_FAST                      6: encoded_str
+                126     LOAD_GLOBAL                     11: NULL + write_to_file
+                136     LOAD_FAST                       6: encoded_str
+                138     CALL                            1
+                146     POP_TOP                         
+                148     RETURN_CONST                    0: None
+        [Code]
+            File Name: compress.py
+            Object Name: main
+            Qualified Name: main
+            Arg Count: 0
+            Pos Only Arg Count: 0
+            KW Only Arg Count: 0
+            Stack Size: 6
+            Flags: 0x00000003 (CO_OPTIMIZED | CO_NEWLOCALS)
+            [Names]
+                'open'
+                'read'
+                'trim'
+                'encode'
+            [Locals+Names]
+                'file'
+                'data'
+            [Constants]
+                None
+                'Flag.txt'
+                'r'
+            [Disassembly]
+                0       RESUME                          0
+                2       LOAD_GLOBAL                     1: NULL + open
+                12      LOAD_CONST                      1: 'Flag.txt'
+                14      LOAD_CONST                      2: 'r'
+                16      CALL                            2
+                24      BEFORE_WITH                     
+                26      STORE_FAST                      0: file
+                28      LOAD_FAST                       0: file
+                30      LOAD_ATTR                       3: read
+                50      CALL                            0
+                58      STORE_FAST                      1: data
+                60      LOAD_CONST                      0: None
+                62      LOAD_CONST                      0: None
+                64      LOAD_CONST                      0: None
+                66      CALL                            2
+                74      POP_TOP                         
+                76      LOAD_GLOBAL                     5: NULL + trim
+                86      LOAD_FAST_CHECK                 1: data
+                88      CALL                            1
+                96      STORE_FAST                      1: data
+                98      LOAD_GLOBAL                     7: NULL + encode
+                108     LOAD_FAST                       1: data
+                110     CALL                            1
+                118     POP_TOP                         
+                120     RETURN_CONST                    0: None
+                122     PUSH_EXC_INFO                   
+                124     WITH_EXCEPT_START               
+                126     POP_JUMP_IF_TRUE                1 (to 130)
+                128     RERAISE                         2
+                130     POP_TOP                         
+                132     POP_EXCEPT                      
+                134     POP_TOP                         
+                136     POP_TOP                         
+                138     JUMP_BACKWARD                   32 (to 76)
+                140     COPY                            3
+                142     POP_EXCEPT                      
+                144     RERAISE                         1
+        '__main__'
+    [Disassembly]
+        0       RESUME                          0
+        2       LOAD_CONST                      0: 0
+        4       LOAD_CONST                      1: None
+        6       IMPORT_NAME                     0: heapq
+        8       STORE_NAME                      0: heapq
+        10      LOAD_CONST                      0: 0
+        12      LOAD_CONST                      1: None
+        14      IMPORT_NAME                     1: collections
+        16      STORE_NAME                      1: collections
+        18      PUSH_NULL                       
+        20      LOAD_BUILD_CLASS                
+        22      LOAD_CONST                      2: <CODE> Node
+        24      MAKE_FUNCTION                   0
+        26      LOAD_CONST                      3: 'Node'
+        28      CALL                            2
+        36      STORE_NAME                      2: Node
+        38      LOAD_CONST                      4: <CODE> ltrim
+        40      MAKE_FUNCTION                   0
+        42      STORE_NAME                      3: ltrim
+        44      LOAD_CONST                      5: <CODE> rtrim
+        46      MAKE_FUNCTION                   0
+        48      STORE_NAME                      4: rtrim
+        50      LOAD_CONST                      6: <CODE> trim
+        52      MAKE_FUNCTION                   0
+        54      STORE_NAME                      5: trim
+        56      LOAD_CONST                      7: <CODE> find_freq
+        58      MAKE_FUNCTION                   0
+        60      STORE_NAME                      6: find_freq
+        62      LOAD_CONST                      8: <CODE> build_pq
+        64      MAKE_FUNCTION                   0
+        66      STORE_NAME                      7: build_pq
+        68      LOAD_CONST                      9: <CODE> build_tree
+        70      MAKE_FUNCTION                   0
+        72      STORE_NAME                      8: build_tree
+        74      LOAD_CONST                      10: <CODE> get_codes
+        76      MAKE_FUNCTION                   0
+        78      STORE_NAME                      9: get_codes
+        80      LOAD_CONST                      11: <CODE> apply_changes
+        82      MAKE_FUNCTION                   0
+        84      STORE_NAME                      10: apply_changes
+        86      LOAD_CONST                      12: <CODE> write_to_file
+        88      MAKE_FUNCTION                   0
+        90      STORE_NAME                      11: write_to_file
+        92      LOAD_CONST                      13: <CODE> encode
+        94      MAKE_FUNCTION                   0
+        96      STORE_NAME                      12: encode
+        98      LOAD_CONST                      14: <CODE> main
+        100     MAKE_FUNCTION                   0
+        102     STORE_NAME                      13: main
+        104     LOAD_NAME                       14: __name__
+        106     LOAD_CONST                      15: '__main__'
+        108     COMPARE_OP                      40 (==)
+        112     POP_JUMP_IF_FALSE               8 (to 130)
+        114     PUSH_NULL                       
+        116     LOAD_NAME                       13: main
+        118     CALL                            0
+        126     POP_TOP                         
+        128     RETURN_CONST                    1: None
+        130     RETURN_CONST                    1: None

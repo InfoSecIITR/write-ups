@@ -1,0 +1,37 @@
+There are some things missing here but I can assure you there are no changes in the encryption
+Code:
+
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
+import java.util.Base64;
+
+import java.util.Scanner;
+
+public class BuggedBlowfish {
+    public static void main(String[] args) throws Exception {
+        Scanner myObj = new Scanner(System.in);
+        System.out.println("Enter the text to be encrypted: ");
+        String plaintext = myObj.nextLine();
+        System.out.println("Enter the key: ")
+        String keyString = myObj.nextLine();
+        byte[] keyData = keyString.getBytes();
+        SecretKey secretKey = new SecretKeySpec(keyData, "Blowfish");
+        String encryptedText = encrypt(plaintext, secretKey);
+        System.out.println("Encrypted Text: " + encryptedText)
+    }
+    
+    private static String encrypt(String plaintext, SecretKey secretKey) throws Exception {
+        Cipher cipher = Cipher.getInstance("Blowfish/CBC/PKCS5Padding");
+        byte[] ivBytes = new byte[cipher.getBlockSize()];
+        SecureRandom random = new SecureRandom();
+        random.nextBytes(ivBytes);
+        IvParameterSpec ivSpec = new IvParameterSpec(ivBytes);
+        cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivSpec);
+        byte[] encryptedBytes = cipher.doFinal(plaintext.getBytes());
+        cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivSpec);
+        encryptedBytes = cipher.doFinal(encryptedBytes);
+
+        return Base64.getEncoder().encodeToString(encryptedBytes);
+    }
+    
+}

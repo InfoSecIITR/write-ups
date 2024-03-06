@@ -108,6 +108,27 @@ ________________________________________________________________________________
 
 * At the time of solving I got the flag one by one, but just for fun I made a script which directly prints the flag :) 
 
+```python
+from tensorflow.keras.models import load_model
+import matplotlib.pyplot as plt
+import numpy as np
+import tensorflow as tf
+from PIL import Image
+
+model = load_model('NumberRecognizer.h5')
+
+flag_weights = [model.weights[0], model.weights[4], model.weights[8]]
+
+combined = []
+for image in flag_weights :
+    combined.append(np.concatenate(np.transpose(image[:, :, 0, :], (2, 0, 1)), axis = 1))
+
+fig, ax = plt.subplots(nrows = 3, ncols = 1, figsize = (30, 8))
+
+for i, image in enumerate(combined) :
+    ax[i].imshow(image, cmap = 'gray')
+```
+
 #### First part : 
 
 ![First part](assets/flag0.png)

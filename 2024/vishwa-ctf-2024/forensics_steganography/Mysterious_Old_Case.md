@@ -1,4 +1,4 @@
-STEGO/MYSTERIOUS OLD CASE WRITEUP -->
+## STEGO/MYSTERIOUS OLD CASE WRITEUP -->
 
 
 We were given an audio file (.mp3) which on initial hearing doesn’t yield much but on playing the audio in the reverse order we are able to make out the following information

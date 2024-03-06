@@ -30,4 +30,4 @@ PS: The Guild started from the sands of Deshret then travelled through the fores
  And BOOM! we got this 
 
  So this is our flag
- VishwaCTF{beware_of_tone-deaf_bard}
+ `VishwaCTF{beware_of_tone-deaf_bard}`

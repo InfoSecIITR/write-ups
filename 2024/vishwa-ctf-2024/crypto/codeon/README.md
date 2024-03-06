@@ -5,10 +5,10 @@
 ### DESCRIPTION :
 * My biochemist friend has doubt that his phone is used by others for calling without knowing him. So, he wants me to find some information related to it, that’s why he sent me some information related to it, also he uses one word short-forms mostly. But I am unable to understand sent data, can you help me?
 
-###Files :
+### Files :
 * [CODEON.txt](CODEON.txt)
 
-####Analysis : 
+#### Analysis : 
 * On reading codeon.txt we get that first we have to find how the matrix R is being calculated from P and Q which is a bit guessy here
 * I tried many things here like addition,subtration,dot product,multiplication, But particularly on element-wise-multiplication and since the name of Dmitri Mendeleev was given i thought of the periodic table and after element wise multiplication and then taking mod 118 of each element we get the result matrix 
 * so using this script 

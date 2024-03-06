@@ -1,4 +1,4 @@
-Forensics/Smoke Out The Rat Writeup -->
+# Forensics/Smoke Out The Rat Writeup -->
 
 
 We were given a MySQL replication log and had to find some stuff. The traitor name was immediately found using the phone no. given in the description from the database

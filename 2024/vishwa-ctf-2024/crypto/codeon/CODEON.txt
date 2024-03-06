@@ -1,0 +1,37 @@
+DATA:
+RSC BGT FFH HFT TPD WMA OCZ CCD DCZ ZVA
+
+He gave me some instructions related to it:
+
+1)He told me he saw some names in call logs those are:
+	Felix Delastelle, Dmitri Mendeleev
+
+2)He also gave me 2 matrices A and B and told to perform same operation on matrix A and B as of performed on matrix P and Q. Find something related to biochemistry.
+  Matrix A =    45 35 93 95 24 65
+		25 15 55 64 36 45
+		15 65 62 16 65 38
+		19 64 35 69 65 63
+		47 67 48 60 39 27
+		66 48 77 22 10 69
+ 
+Matrix B =	33 25 30 11 68 65
+		83 36 19 33 55 51
+		20 16 48 63 41 71
+		30 42 12 25 31 37
+		51 03 44 23 43 85
+		20 39 28 41 01 70
+
+
+Matrix P= 	13 81 60
+		40 99 88
+		39 87 92
+
+Matrix Q=	50 52 36 
+		90 75 28
+		80 9  18
+
+Result Matrix of P and Q =	60   82   36 
+			   				60   109  104 
+							52   75   4
+
+-60112

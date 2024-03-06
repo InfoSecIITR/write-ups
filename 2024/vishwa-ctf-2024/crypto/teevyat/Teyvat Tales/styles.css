@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/GenshinNoticeBoard.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 100vh; */
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.fours {
+    width: 25%;
+    height: 100vh;
+    /* background-color:bisque; */
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.first-four {
+    top: 0;
+    left: 0;
+    background-color:#BCE29E;
+    position: absolute;
+}
+
+.sec-four {
+    top: 0;
+    left: 25%;
+    background-color:#E5EBB2;
+    position: absolute;
+}
+
+.third-four {
+    top: 0;
+    left: 50%;
+    background-color:#F8C4B4;
+    position: absolute;
+}
+
+.fourth-four {
+    top: 0;
+    left: 75%;
+    background-color:#FF8787;
+    position: absolute;
+}
+
+.centered-align {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    height: 2.3rem;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin-top: 10px;
+}
+
+button {
+    width: 30%;
+    height: 2.3rem;
+    padding: 10px;   
+    margin-top: 10px;
+    border-radius: 7px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.form-div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
+    top: 500px; */
+}
+
+img {
+    width: 95%;
+    border: 1px solid black;
+}

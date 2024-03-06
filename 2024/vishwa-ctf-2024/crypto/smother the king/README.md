@@ -9,8 +9,9 @@
 * Flag format: VishwaCTF{move1ofWhite_move1ofBlack_move2ofWhite_move2ofBlack_move3ofWhite_move3ofBlack_move4ofWhite}.
 
 * Note: Please use proper chess notations while writing any move.
-###Files :
+### Files :
 * [code.txt](code.txt)
+
 
 #### Analysis : 
 * On searching the names of the persons given in description i.e. Ben Olmstead we get that they have a return a coding language called malbolge 
@@ -35,4 +36,4 @@ Nc7#
 ```
 
 So the flag is 
-VishwaCTF{Nc7+_Kb8_Na6+_Ka8_Qb8+_Rxb8_Nc7#}
+`VishwaCTF{Nc7+_Kb8_Na6+_Ka8_Qb8+_Rxb8_Nc7#}`

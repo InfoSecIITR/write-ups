@@ -12,7 +12,7 @@
 ###Files :
 * [code.txt](code.txt)
 
-####Analysis : 
+#### Analysis : 
 * On searching the names of the persons given in description i.e. Ben Olmstead we get that they have a return a coding language called malbolge 
 * So I searched for malbolge interpreter online and after running what was given in code.txt there we got
 ```

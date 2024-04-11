@@ -229,9 +229,17 @@ Luckily, we found a **unique** solution: $(r_1, r_2) = (237, 41)$
 
 Now, we can calculate the flag using euler's totient function (in RSA) and modular inverses.
 
-$$ \phi(p) = p-1 \\ r_2 d \equiv 1 \ (\text{mod} \ \phi(p)) \\ \implies d \equiv r^{-1}_2 \ (\text{mod} \ p-1) \\ \therefore y \equiv c^d \ (\text{mod} \ p)$$
+$$\begin{align*}
+    \phi(p) &= p-1 \\
+    r_2 d &\equiv 1 \ (\text{mod} \ \phi(p)) \\
+    \implies d &\equiv r^{-1}_2 \ (\text{mod} \ p-1) \\
+    \therefore y &\equiv c^d \ (\text{mod} \ p)
+\end{align*}$$
 
-$$ y \equiv xr_1 \ (\text{mod} \ p) \\ \implies x \equiv yr^{-1}_1 \ (\text{mod} \ p) $$
+$$\begin{align*}
+    y &\equiv xr_1 \ (\text{mod} \ p) \\
+    \implies x &\equiv yr^{-1}_1 \ (\text{mod} \ p)
+\end{align*}$$
 
 ## Full Solve Script
 ```python

@@ -83,22 +83,22 @@ while i & a:    # while i-th bit of a is set
     i = i << 1  # left shift i by 1 place
 ```
 
-For example, calling `func0` on `a1` $ = 151_{10} = 10010111_{2}$ will set `i` to $1000_{2} = 8_{10}$ initially.
+For example, calling `func0` on `a1` $= 151_{10} = 10010111_{2}$ will set `i` to $1000_{2} = 8_{10}$ initially.
 
 Now the next loop<sup>**8**</sup> starts with setting `j` = `i | a1`. So basically `j` will have the first unset bit of `a1` being set. `i` is then right shifted by $1$, and then `j` is set to `j & ~i`. This process then repeats untill `i` becomes $0$.
 
 Let's keep following our above example:
 
-1. `a1` $ = 151_{10} = 10010111_{2}$
-2. `i` $ = 1000_{2} = 8_{10}$
-3. `j = i | a` $ = 10011111_{2} = 159_{10}$
-   1. `i = i >> 1` $ = 100_{2} = 4_{10}$
-        `j = j & ~i` $ = 10011111_{2}$ `&` $11111011_{2} = 10011011_{2} = 155_{10}$ 
-   2. `i = i >> 1` $ = 10_{2} = 2_{10}$
-        `j = j & ~i` $ = 10011011_{2}$ `&` $11111101_{2} = 10011001_{2} = 153_{10}$
-   3. `i = i >> 1` $ = 1$
-        `j = j & ~i` $ = 10011001_{2}$ `&` $11111110_{2} = 10011000_{2} = 152_{10}$
-   4. `i = i >> 1` $ = 0$
+1. `a1` $= 151_{10} = 10010111_{2}$
+2. `i` $= 1000_{2} = 8_{10}$
+3. `j = i | a` $= 10011111_{2} = 159_{10}$
+   1. `i = i >> 1` $= 100_{2} = 4_{10}$
+        `j = j & ~i` $= 10011111_{2}$ `&` $11111011_{2} = 10011011_{2} = 155_{10}$ 
+   2. `i = i >> 1` $= 10_{2} = 2_{10}$
+        `j = j & ~i` $= 10011011_{2}$ `&` $11111101_{2} = 10011001_{2} = 153_{10}$
+   3. `i = i >> 1` $= 1$
+        `j = j & ~i` $= 10011001_{2}$ `&` $11111110_{2} = 10011000_{2} = 152_{10}$
+   4. `i = i >> 1` $= 0$
         `break`
 
 So `func0` for $151$ gives $152$. This seems interesting. It could be that `func0(c)` just returns the **successor** of `c`. Let's prove this by writing this in python.
@@ -141,7 +141,7 @@ This resolves to `func1(a, b) = (a + b) % p`. So this function just returns the 
 
 - `a1`  &rarr; `a`
 - `a2` &rarr; `b`
-Note that the function `func1` is being passed to the function `sub_12B6`<sup>**3**</sup> as a **function pointer**. We'll rename it to `binary_exp` (_peak foreshadowing right here_).
+Note that the function `func1` is being passed to the function `sub_12B6`<sup>**3**</sup> as a **function pointer**. We'll rename it to `binary_exp` (_epic foreshadowing right here_).
 - `sub_12B6` &rarr; `binary_exp`
 
 
@@ -191,7 +191,7 @@ for (int64_t i = 0; flag[i]; i++) {
 
 Now the challenge lies on finding the values `random[0]` $(r_1)$ and `random[1]` $(r_2)$. Here, we will have to use some prior knowledge. We know that that flag format if of the form `amatuersctf{...}`. So, the first letter of the flag is `'a'`.
 
-Since the `sizeof` $r_1$ and $r_2$ is $1$ byte each, they can only contain values in the range $[0,255]$. We will use this fact to brute-force a **unique** solution for $(r_1, r_2)$.
+Since the `sizeof` $r_1$ and $r_2$ is $1$ byte each, they can only contain values in the range $[0;255]$. We will use this fact to brute-force a **unique** solution for $(r_1, r_2)$.
 
 ```python
 p = 10**9 + 7

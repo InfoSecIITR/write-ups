@@ -281,5 +281,5 @@ for c in nums:
     num = c
     
 print(flag, end='')
-# amateursCTFs{r/programminghorror/comments/18x7vk9/}
+# amateursCTF{r/programminghorror/comments/18x7vk9/}
 ```
